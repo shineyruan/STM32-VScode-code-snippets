@@ -1,0 +1,572 @@
+{
+    "__IO":{
+        "prefix": "__IO",
+        "scope": "c",
+        "body": "__IO"
+    },
+    "GPIO_InitTypeDef":{
+        "prefix": "GPIO_InitTypeDef",
+        "scope": "c",
+        "body": [
+            "GPIO_InitTypeDef ${1:GPIO_InitStructure};",
+            "${1:GPIO_InitStructure}.GPIO_Pin = $2",
+            "${1:GPIO_InitStructure}.GPIO_Mode = $3",
+            "${1:GPIO_InitStructure}.GPIO_Speed = $4"
+        ]
+    },
+    "GPIO_InitStructure":{
+        "prefix": "GPIO_InitStructure",
+        "scope": "c",
+        "body": "GPIO_InitStructure"
+    },
+    "GPIO_Pin_0":{
+        "prefix": "GPIO_Pin_0",
+        "scope": "c",
+        "body": "GPIO_Pin_0"
+    },
+    "GPIO_Pin_1":{
+        "prefix": "GPIO_Pin_1",
+        "scope": "c",
+        "body": "GPIO_Pin_1"
+    },
+    "GPIO_Pin_2":{
+        "prefix": "GPIO_Pin_2",
+        "scope": "c",
+        "body": "GPIO_Pin_2"
+    },
+    "GPIO_Pin_3":{
+        "prefix": "GPIO_Pin_3",
+        "scope": "c",
+        "body": "GPIO_Pin_3"
+    },
+    "GPIO_Pin_4":{
+        "prefix": "GPIO_Pin_4",
+        "scope": "c",
+        "body": "GPIO_Pin_4"
+    },
+    "GPIO_Pin_5":{
+        "prefix": "GPIO_Pin_5",
+        "scope": "c",
+        "body": "GPIO_Pin_5"
+    },
+    "GPIO_Pin_6":{
+        "prefix": "GPIO_Pin_6",
+        "scope": "c",
+        "body": "GPIO_Pin_6"
+    },
+    "GPIO_Pin_7":{
+        "prefix": "GPIO_Pin_7",
+        "scope": "c",
+        "body": "GPIO_Pin_7"
+    },
+    "GPIO_Pin_8":{
+        "prefix": "GPIO_Pin_8",
+        "scope": "c",
+        "body": "GPIO_Pin_8"
+    },
+    "GPIO_Pin_9":{
+        "prefix": "GPIO_Pin_9",
+        "scope": "c",
+        "body": "GPIO_Pin_9"
+    },
+    "GPIO_Pin_10":{
+        "prefix": "GPIO_Pin_10",
+        "scope": "c",
+        "body": "GPIO_Pin_10"
+    },
+    "GPIO_Pin_11":{
+        "prefix": "GPIO_Pin_11",
+        "scope": "c",
+        "body": "GPIO_Pin_11"
+    },
+    "GPIO_Pin_12":{
+        "prefix": "GPIO_Pin_12",
+        "scope": "c",
+        "body": "GPIO_Pin_12"
+    },
+    "GPIO_Pin_13":{
+        "prefix": "GPIO_Pin_13",
+        "scope": "c",
+        "body": "GPIO_Pin_13"
+    },
+    "GPIO_Pin_14":{
+        "prefix": "GPIO_Pin_14",
+        "scope": "c",
+        "body": "GPIO_Pin_14"
+    },
+    "GPIO_Pin_15":{
+        "prefix": "GPIO_Pin_15",
+        "scope": "c",
+        "body": "GPIO_Pin_15"
+    },
+    "GPIO_Pin_All":{
+        "prefix": "GPIO_Pin_All",
+        "scope": "c",
+        "body": "GPIO_Pin_All"
+    },
+    "GPIO_ReadInputData":{
+        "prefix": "GPIO_ReadInputData",
+        "scope": "c",
+        "body": "GPIO_ReadInputData(GPIO${1:A})"
+    },
+    "GPIO_ReadInputDataBit":{
+        "prefix": "GPIO_ReadInputDataBit",
+        "scope": "c",
+        "body": "GPIO_ReadInputDataBit(GPIO${1:A}, GPIO_Pin_${2:0})"
+    },
+    "GPIO_ReadOutputData":{
+        "prefix": "GPIO_ReadOutputData",
+        "scope": "c",
+        "body": "GPIO_ReadOutputData(GPIO${1:A})"
+    },
+    "GPIO_ReadOutputDataBit":{
+        "prefix": "GPIO_ReadOutputDataBit",
+        "scope": "c",
+        "body": "GPIO_ReadOutputDataBit(GPIO${1:A}, GPIO_Pin_${2:0})"
+    },
+    "GPIO_SetBits":{
+        "prefix": "GPIO_SetBits",
+        "scope": "c",
+        "body": "GPIO_SetBits(GPIO${1:A}, GPIO_Pin_${2:0})"
+    },
+    "GPIO_ResetBits":{
+        "prefix": "GPIO_ResetBits",
+        "scope": "c",
+        "body": "GPIO_ResetBits(GPIO${1:A}, GPIO_Pin_${2:0})"
+    },
+    "GPIO_WriteBit":{
+        "prefix": "GPIO_WriteBit",
+        "scope": "c",
+        "body": "GPIO_WriteBit(GPIO${1:A}, GPIO_Pin_${2:0}, ${3:Bit_SET})"
+    },
+    "GPIO_Write":{
+        "prefix": "GPIO_Write",
+        "scope": "c",
+        "body": "GPIO_Write(GPIO${1:A}, $2)"
+    },
+    "GPIO_PinLockConfig":{
+        "prefix": "GPIO_PinLockConfig",
+        "scope": "c",
+        "body": "GPIO_PinLockConfig(GPIO${1:A}, GPIO_Pin_${2:0})"
+    },
+    "GPIO_EventOutputConfig":{
+        "prefix": "GPIO_EventOutputConfig",
+        "scope": "c",
+        "body": "GPIO_EventOutputConfig($1)"
+    },
+    "GPIO_EventOutputCmd":{
+        "prefix": "GPIO_EventOutputCmd",
+        "scope": "c",
+        "body": "GPIO_EventOutputCmd($1)"
+    },
+    "GPIO_PinRemapConfig":{
+        "prefix": "GPIO_PinRemapConfig",
+        "scope": "c",
+        "body": "GPIO_PinRemapConfig($1)"
+    },
+    "GPIO_EXTILineConfig":{
+        "prefix": "GPIO_EXTILineConfig",
+        "scope": "c",
+        "body": "GPIO_EXTILineConfig($1)"
+    },
+    "GPIO_ETH_MediaInterfaceConfig":{
+        "prefix": "GPIO_ETH_MediaInterfaceConfig",
+        "scope": "c",
+        "body": "GPIO_ETH_MediaInterfaceConfig($1)"
+    },
+    "GPIO_Mode_AIN":{
+        "prefix": "GPIO_Mode_AIN",
+        "scope": "c",
+        "body": "GPIO_Mode_AIN"
+    },
+    "GPIO_Mode_IN_FLOATING":{
+        "prefix": "GPIO_Mode_IN_FLOATING",
+        "scope": "c",
+        "body": "GPIO_Mode_IN_FLOATING"
+    },
+    "GPIO_Mode_IPD":{
+        "prefix": "GPIO_Mode_IPD",
+        "scope": "c",
+        "body": "GPIO_Mode_IPD"
+    },
+    "GPIO_Mode_IPU":{
+        "prefix": "GPIO_Mode_IPU",
+        "scope": "c",
+        "body": "GPIO_Mode_IPU"
+    },
+    "GPIO_Mode_Out_OD":{
+        "prefix": "GPIO_Mode_Out_OD",
+        "scope": "c",
+        "body": "GPIO_Mode_Out_OD"
+    },
+    "GPIO_Mode_Out_PP":{
+        "prefix": "GPIO_Mode_Out_PP",
+        "scope": "c",
+        "body": "GPIO_Mode_Out_PP"
+    },
+    "GPIO_Mode_AF_OD":{
+        "prefix": "GPIO_Mode_AF_OD",
+        "scope": "c",
+        "body": "GPIO_Mode_AF_OD"
+    },
+    "GPIO_Mode_AF_PP":{
+        "prefix": "GPIO_Mode_AF_PP",
+        "scope": "c",
+        "body": "GPIO_Mode_AF_PP"
+    },
+    "Bit_RESET":{
+        "prefix": "Bit_RESET",
+        "scope": "c",
+        "body": "Bit_RESET"
+    },
+    "Bit_SET":{
+        "prefix": "Bit_SET",
+        "scope": "c",
+        "body": "Bit_SET"
+    },
+    "GPIO_Remap_SPI1":{
+        "prefix": "GPIO_Remap_SPI1",
+        "scope": "c",
+        "body": "GPIO_Remap_SPI1"
+    },
+    "GPIO_Remap_I2C1":{
+        "prefix": "GPIO_Remap_I2C1",
+        "scope": "c",
+        "body": "GPIO_Remap_I2C1"
+    },
+    "GPIO_Remap_USART1":{
+        "prefix": "GPIO_Remap_USART1",
+        "scope": "c",
+        "body": "GPIO_Remap_USART1"
+    },
+    "GPIO_Remap_USART2":{
+        "prefix": "GPIO_Remap_USART2",
+        "scope": "c",
+        "body": "GPIO_Remap_USART2"
+    },
+    "GPIO_PartialRemap_USART3":{
+        "prefix": "GPIO_PartialRemap_USART3",
+        "scope": "c",
+        "body": "GPIO_PartialRemap_USART3"
+    },
+    "GPIO_FullRemap_USART3":{
+        "prefix": "GPIO_FullRemap_USART3",
+        "scope": "c",
+        "body": "GPIO_FullRemap_USART3"
+    },
+    "GPIO_PartialRemap_TIM1":{
+        "prefix": "GPIO_PartialRemap_TIM1",
+        "scope": "c",
+        "body": "GPIO_PartialRemap_TIM1"
+    },
+    "GPIO_FullRemap_TIM1":{
+        "prefix": "GPIO_FullRemap_TIM1",
+        "scope": "c",
+        "body": "GPIO_FullRemap_TIM1"
+    },
+    "GPIO_PartialRemap1_TIM2":{
+        "prefix": "GPIO_PartialRemap1_TIM2",
+        "scope": "c",
+        "body": "GPIO_PartialRemap1_TIM2"
+    },
+    "GPIO_PartialRemap2_TIM2":{
+        "prefix": "GPIO_PartialRemap2_TIM2",
+        "scope": "c",
+        "body": "GPIO_PartialRemap2_TIM2"
+    },
+    "GPIO_FullRemap_TIM2":{
+        "prefix": "GPIO_FullRemap_TIM2",
+        "scope": "c",
+        "body": "GPIO_FullRemap_TIM2"
+    },
+    "GPIO_PartialRemap_TIM3":{
+        "prefix": "GPIO_PartialRemap_TIM3",
+        "scope": "c",
+        "body": "GPIO_PartialRemap_TIM3"
+    },
+    "GPIO_FullRemap_TIM3":{
+        "prefix": "GPIO_FullRemap_TIM3",
+        "scope": "c",
+        "body": "GPIO_FullRemap_TIM3"
+    },
+    "GPIO_Remap_TIM4":{
+        "prefix": "GPIO_Remap_TIM4",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM4"
+    },
+    "GPIO_Remap1_CAN1":{
+        "prefix": "GPIO_Remap1_CAN1",
+        "scope": "c",
+        "body": "GPIO_Remap1_CAN1"
+    },
+    "GPIO_Remap2_CAN1":{
+        "prefix": "GPIO_Remap2_CAN1",
+        "scope": "c",
+        "body": "GPIO_Remap2_CAN1"
+    },
+    "GPIO_Remap_PD01":{
+        "prefix": "GPIO_Remap_PD01",
+        "scope": "c",
+        "body": "GPIO_Remap_PD01"
+    },
+    "GPIO_Remap_TIM5CH4_LSI":{
+        "prefix": "GPIO_Remap_TIM5CH4_LSI",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM5CH4_LSI"
+    },
+    "GPIO_Remap_ADC1_ETRGINJ":{
+        "prefix": "GPIO_Remap_ADC1_ETRGINJ",
+        "scope": "c",
+        "body": "GPIO_Remap_ADC1_ETRGINJ"
+    },
+    "GPIO_Remap_ADC1_ETRGREG":{
+        "prefix": "GPIO_Remap_ADC1_ETRGREG",
+        "scope": "c",
+        "body": "GPIO_Remap_ADC1_ETRGREG"
+    },
+    "GPIO_Remap_ADC2_ETRGINJ":{
+        "prefix": "GPIO_Remap_ADC2_ETRGINJ",
+        "scope": "c",
+        "body": "GPIO_Remap_ADC2_ETRGINJ"
+    },
+    "GPIO_Remap_ADC2_ETRGREG":{
+        "prefix": "GPIO_Remap_ADC2_ETRGREG",
+        "scope": "c",
+        "body": "GPIO_Remap_ADC2_ETRGREG"
+    },
+    "GPIO_Remap_ETH":{
+        "prefix": "GPIO_Remap_ETH",
+        "scope": "c",
+        "body": "GPIO_Remap_ETH"
+    },
+    "GPIO_Remap_CAN2":{
+        "prefix": "GPIO_Remap_CAN2",
+        "scope": "c",
+        "body": "GPIO_Remap_CAN2"
+    },
+    "GPIO_Remap_SWJ_NoJTRST":{
+        "prefix": "GPIO_Remap_SWJ_NoJTRST",
+        "scope": "c",
+        "body": "GPIO_Remap_SWJ_NoJTRST"
+    },
+    "GPIO_Remap_SWJ_JTAGDisable":{
+        "prefix": "GPIO_Remap_SWJ_JTAGDisable",
+        "scope": "c",
+        "body": "GPIO_Remap_SWJ_JTAGDisable"
+    },
+    "GPIO_Remap_SWJ_Disable":{
+        "prefix": "GPIO_Remap_SWJ_Disable",
+        "scope": "c",
+        "body": "GPIO_Remap_SWJ_Disable"
+    },
+    "GPIO_Remap_SPI3":{
+        "prefix": "GPIO_Remap_SPI3",
+        "scope": "c",
+        "body": "GPIO_Remap_SPI3"
+    },
+    "GPIO_Remap_TIM2ITR1_PTP_SOF":{
+        "prefix": "GPIO_Remap_TIM2ITR1_PTP_SOF",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM2ITR1_PTP_SOF"
+    },
+    "GPIO_Remap_PTP_PPS":{
+        "prefix": "GPIO_Remap_PTP_PPS",
+        "scope": "c",
+        "body": "GPIO_Remap_PTP_PPS"
+    },
+    "GPIO_Remap_TIM15":{
+        "prefix": "GPIO_Remap_TIM15",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM15"
+    },
+    "GPIO_Remap_TIM16":{
+        "prefix": "GPIO_Remap_TIM16",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM16"
+    },
+    "GPIO_Remap_TIM17":{
+        "prefix": "GPIO_Remap_TIM17",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM17"
+    },
+    "GPIO_Remap_CEC":{
+        "prefix": "GPIO_Remap_CEC",
+        "scope": "c",
+        "body": "GPIO_Remap_CEC"
+    },
+    "GPIO_Remap_TIM1_DMA":{
+        "prefix": "GPIO_Remap_TIM1_DMA",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM1_DMA"
+    },
+    "GPIO_Remap_TIM9":{
+        "prefix": "GPIO_Remap_TIM9",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM9"
+    },
+    "GPIO_Remap_TIM10":{
+        "prefix": "GPIO_Remap_TIM10",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM10"
+    },
+    "GPIO_Remap_TIM11":{
+        "prefix": "GPIO_Remap_TIM11",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM11"
+    },
+    "GPIO_Remap_TIM13":{
+        "prefix": "GPIO_Remap_TIM13",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM13"
+    },
+    "GPIO_Remap_TIM14":{
+        "prefix": "GPIO_Remap_TIM14",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM14"
+    },
+    "GPIO_Remap_FSMC_NADV":{
+        "prefix": "GPIO_Remap_FSMC_NADV",
+        "scope": "c",
+        "body": "GPIO_Remap_FSMC_NADV"
+    },
+    "GPIO_Remap_TIM67_DAC_DMA":{
+        "prefix": "GPIO_Remap_TIM67_DAC_DMA",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM67_DAC_DMA"
+    },
+    "GPIO_Remap_TIM12":{
+        "prefix": "GPIO_Remap_TIM12",
+        "scope": "c",
+        "body": "GPIO_Remap_TIM12"
+    },
+    "GPIO_Remap_MISC":{
+        "prefix": "GPIO_Remap_MISC",
+        "scope": "c",
+        "body": "GPIO_Remap_MISC"
+    },
+    "GPIO_PortSourceGPIOA":{
+        "prefix": "GPIO_PortSourceGPIOA",
+        "scope": "c",
+        "body": "GPIO_PortSourceGPIOA"
+    },
+    "GPIO_PortSourceGPIOB":{
+        "prefix": "GPIO_PortSourceGPIOB",
+        "scope": "c",
+        "body": "GPIO_PortSourceGPIOB"
+    },
+    "GPIO_PortSourceGPIOC":{
+        "prefix": "GPIO_PortSourceGPIOC",
+        "scope": "c",
+        "body": "GPIO_PortSourceGPIOC"
+    },
+    "GPIO_PortSourceGPIOD":{
+        "prefix": "GPIO_PortSourceGPIOD",
+        "scope": "c",
+        "body": "GPIO_PortSourceGPIOD"
+    },
+    "GPIO_PortSourceGPIOE":{
+        "prefix": "GPIO_PortSourceGPIOE",
+        "scope": "c",
+        "body": "GPIO_PortSourceGPIOE"
+    },
+    "GPIO_PortSourceGPIOF":{
+        "prefix": "GPIO_PortSourceGPIOF",
+        "scope": "c",
+        "body": "GPIO_PortSourceGPIOF"
+    },
+    "GPIO_PortSourceGPIOG":{
+        "prefix": "GPIO_PortSourceGPIOG",
+        "scope": "c",
+        "body": "GPIO_PortSourceGPIOG"
+    },
+    "GPIO_PinSource0":{
+        "prefix": "GPIO_PinSource0",
+        "scope": "c",
+        "body": "GPIO_PinSource0"
+    },
+    "GPIO_PinSource1":{
+        "prefix": "GPIO_PinSource1",
+        "scope": "c",
+        "body": "GPIO_PinSource1"
+    },
+    "GPIO_PinSource2":{
+        "prefix": "GPIO_PinSource2",
+        "scope": "c",
+        "body": "GPIO_PinSource2"
+    },
+    "GPIO_PinSource3":{
+        "prefix": "GPIO_PinSource3",
+        "scope": "c",
+        "body": "GPIO_PinSource3"
+    },
+    "GPIO_PinSource4":{
+        "prefix": "GPIO_PinSource4",
+        "scope": "c",
+        "body": "GPIO_PinSource4"
+    },
+    "GPIO_PinSource5":{
+        "prefix": "GPIO_PinSource5",
+        "scope": "c",
+        "body": "GPIO_PinSource5"
+    },
+    "GPIO_PinSource6":{
+        "prefix": "GPIO_PinSource6",
+        "scope": "c",
+        "body": "GPIO_PinSource6"
+    },
+    "GPIO_PinSource7":{
+        "prefix": "GPIO_PinSource7",
+        "scope": "c",
+        "body": "GPIO_PinSource7"
+    },
+    "GPIO_PinSource8":{
+        "prefix": "GPIO_PinSource8",
+        "scope": "c",
+        "body": "GPIO_PinSource8"
+    },
+    "GPIO_PinSource9":{
+        "prefix": "GPIO_PinSource9",
+        "scope": "c",
+        "body": "GPIO_PinSource9"
+    },
+    "GPIO_PinSource10":{
+        "prefix": "GPIO_PinSource10",
+        "scope": "c",
+        "body": "GPIO_PinSource10"
+    },
+    "GPIO_PinSource11":{
+        "prefix": "GPIO_PinSource11",
+        "scope": "c",
+        "body": "GPIO_PinSource11"
+    },
+    "GPIO_PinSource12":{
+        "prefix": "GPIO_PinSource12",
+        "scope": "c",
+        "body": "GPIO_PinSource12"
+    },
+    "GPIO_PinSource13":{
+        "prefix": "GPIO_PinSource13",
+        "scope": "c",
+        "body": "GPIO_PinSource13"
+    },
+    "GPIO_PinSource14":{
+        "prefix": "GPIO_PinSource14",
+        "scope": "c",
+        "body": "GPIO_PinSource14"
+    },
+    "GPIO_PinSource15":{
+        "prefix": "GPIO_PinSource15",
+        "scope": "c",
+        "body": "GPIO_PinSource15"
+    },
+    "GPIO_ETH_MediaInterface_MII":{
+        "prefix": "GPIO_ETH_MediaInterface_MII",
+        "scope": "c",
+        "body": "GPIO_ETH_MediaInterface_MII"
+    },
+    "GPIO_ETH_MediaInterface_RMII":{
+        "prefix": "GPIO_ETH_MediaInterface_RMII",
+        "scope": "c",
+        "body": "GPIO_ETH_MediaInterface_RMII"
+    }
+}

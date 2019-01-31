@@ -1,0 +1,436 @@
+{
+    "int8_t":{
+        "prefix": "int8_t",
+        "scope": "c",
+        "body": "int8_t"
+    },
+    "uint8_t":{
+        "prefix": "uint8_t",
+        "scope": "c",
+        "body": "uint8_t"
+    },
+    "int16_t":{
+        "prefix": "int16_t",
+        "scope": "c",
+        "body": "int16_t"
+    },
+    "uint16_t":{
+        "prefix": "uint16_t",
+        "scope": "c",
+        "body": "uint16_t"
+    },
+    "int32_t":{
+        "prefix": "int32_t",
+        "scope": "c",
+        "body": "int32_t"
+    },
+    "uint32_t":{
+        "prefix": "uint32_t",
+        "scope": "c",
+        "body": "uint32_t"
+    },
+    "int64_t":{
+        "prefix": "int64_t",
+        "scope": "c",
+        "body": "int64_t"
+    },
+    "uint64_t":{
+        "prefix": "uint64_t",
+        "scope": "c",
+        "body": "uint64_t"
+    },
+    "int_least8_t":{
+        "prefix": "int_least8_t",
+        "scope": "c",
+        "body": "int_least8_t"
+    },
+    "uint_least8_t":{
+        "prefix": "uint_least8_t",
+        "scope": "c",
+        "body": "uint_least8_t"
+    },
+    "int_least16_t":{
+        "prefix": "int_least16_t",
+        "scope": "c",
+        "body": "int_least16_t"
+    },
+    "uint_least16_t":{
+        "prefix": "uint_least16_t",
+        "scope": "c",
+        "body": "uint_least16_t"
+    },
+    "int_least32_t":{
+        "prefix": "int_least32_t",
+        "scope": "c",
+        "body": "int_least32_t"
+    },
+    "uint_least32_t":{
+        "prefix": "uint_least32_t",
+        "scope": "c",
+        "body": "uint_least32_t"
+    },
+    "int_least64_t":{
+        "prefix": "int_least64_t",
+        "scope": "c",
+        "body": "int_least64_t"
+    },
+    "uint_least64_t":{
+        "prefix": "uint_least64_t",
+        "scope": "c",
+        "body": "uint_least64_t"
+    },
+    "int_fast8_t":{
+        "prefix": "int_fast8_t",
+        "scope": "c",
+        "body": "int_fast8_t"
+    },
+    "uint_fast8_t":{
+        "prefix": "uint_fast8_t",
+        "scope": "c",
+        "body": "uint_fast8_t"
+    },
+    "int_fast16_t":{
+        "prefix": "int_fast16_t",
+        "scope": "c",
+        "body": "int_fast16_t"
+    },
+    "uint_fast16_t":{
+        "prefix": "uint_fast16_t",
+        "scope": "c",
+        "body": "uint_fast16_t"
+    },
+    "int_fast32_t":{
+        "prefix": "int_fast32_t",
+        "scope": "c",
+        "body": "int_fast32_t"
+    },
+    "uint_fast32_t":{
+        "prefix": "uint_fast32_t",
+        "scope": "c",
+        "body": "uint_fast32_t"
+    },
+    "int_fast64_t":{
+        "prefix": "int_fast64_t",
+        "scope": "c",
+        "body": "int_fast64_t"
+    },
+    "uint_fast64_t":{
+        "prefix": "uint_fast64_t",
+        "scope": "c",
+        "body": "uint_fast64_t"
+    },
+    "intmax_t":{
+        "prefix": "intmax_t",
+        "scope": "c",
+        "body": "intmax_t"
+    },
+    "uintmax_t":{
+        "prefix": "uintmax_t",
+        "scope": "c",
+        "body": "uintmax_t"
+    },
+    "INT8_MIN":{
+        "prefix": "INT8_MIN",
+        "scope": "c",
+        "body": "INT8_MIN"
+    },
+    "INT16_MIN":{
+        "prefix": "INT16_MIN",
+        "scope": "c",
+        "body": "INT16_MIN"
+    },
+    "INT32_MIN":{
+        "prefix": "INT32_MIN",
+        "scope": "c",
+        "body": "INT32_MIN"
+    },
+    "INT64_MIN":{
+        "prefix": "INT64_MIN",
+        "scope": "c",
+        "body": "INT64_MIN"
+    },
+    "INT8_MAX":{
+        "prefix": "INT8_MAX",
+        "scope": "c",
+        "body": "INT8_MAX"
+    },"INT16_MAX":{
+        "prefix": "INT16_MAX",
+        "scope": "c",
+        "body": "INT16_MAX"
+    },
+    "INT32_MAX":{
+        "prefix": "INT32_MAX",
+        "scope": "c",
+        "body": "INT32_MAX"
+    },
+    "INT64_MAX":{
+        "prefix": "INT64_MAX",
+        "scope": "c",
+        "body": "INT64_MAX"
+    },
+    "UINT8_MAX":{
+        "prefix": "UINT8_MAX",
+        "scope": "c",
+        "body": "UINT8_MAX"
+    },
+    "UINT16_MAX":{
+        "prefix": "UINT16_MAX",
+        "scope": "c",
+        "body": "UINT16_MAX"
+    },
+    "UINT32_MAX":{
+        "prefix": "UINT32_MAX",
+        "scope": "c",
+        "body": "UINT32_MAX"
+    },
+    "UINT64_MAX":{
+        "prefix": "UINT64_MAX",
+        "scope": "c",
+        "body": "UINT64_MAX"
+    },
+    "INT_LEAST8_MIN":{
+        "prefix": "INT_LEAST8_MIN",
+        "scope": "c",
+        "body": "INT_LEAST8_MIN"
+    },
+    "INT_LEAST16_MIN":{
+        "prefix": "INT_LEAST16_MIN",
+        "scope": "c",
+        "body": "INT_LEAST16_MIN"
+    },
+    "INT_LEAST32_MIN":{
+        "prefix": "INT_LEAST32_MIN",
+        "scope": "c",
+        "body": "INT_LEAST32_MIN"
+    },
+    "INT_LEAST64_MIN":{
+        "prefix": "INT_LEAST64_MIN",
+        "scope": "c",
+        "body": "INT_LEAST64_MIN"
+    },
+    "INT_LEAST8_MAX":{
+        "prefix": "INT_LEAST8_MAX",
+        "scope": "c",
+        "body": "INT_LEAST8_MAX"
+    },
+    "INT_LEAST16_MAX":{
+        "prefix": "INT_LEAST16_MAX",
+        "scope": "c",
+        "body": "INT_LEAST16_MAX"
+    },
+    "INT_LEAST32_MAX":{
+        "prefix": "INT_LEAST32_MAX",
+        "scope": "c",
+        "body": "INT_LEAST32_MAX"
+    },
+    "INT_LEAST64_MAX":{
+        "prefix": "INT_LEAST64_MAX",
+        "scope": "c",
+        "body": "INT_LEAST64_MAX"
+    },
+    "UINT_LEAST8_MAX":{
+        "prefix": "UINT_LEAST8_MAX",
+        "scope": "c",
+        "body": "UINT_LEAST8_MAX"
+    },
+    "UINT_LEAST16_MAX":{
+        "prefix": "UINT_LEAST16_MAX",
+        "scope": "c",
+        "body": "UINT_LEAST16_MAX"
+    },
+    "UINT_LEAST32_MAX":{
+        "prefix": "UINT_LEAST32_MAX",
+        "scope": "c",
+        "body": "UINT_LEAST32_MAX"
+    },
+    "UINT_LEAST64_MAX":{
+        "prefix": "UINT_LEAST64_MAX",
+        "scope": "c",
+        "body": "UINT_LEAST64_MAX"
+    },
+    "INT_FAST8_MIN":{
+        "prefix": "INT_FAST8_MIN",
+        "scope": "c",
+        "body": "INT_FAST8_MIN"
+    },
+    "INT_FAST16_MIN":{
+        "prefix": "INT_FAST16_MIN",
+        "scope": "c",
+        "body": "INT_FAST16_MIN"
+    },
+    "INT_FAST32_MIN":{
+        "prefix": "INT_FAST32_MIN",
+        "scope": "c",
+        "body": "INT_FAST32_MIN"
+    },
+    "INT_FAST64_MIN":{
+        "prefix": "INT_FAST64_MIN",
+        "scope": "c",
+        "body": "INT_FAST64_MIN"
+    },
+    "INT_FAST8_MAX":{
+        "prefix": "INT_FAST8_MAX",
+        "scope": "c",
+        "body": "INT_FAST8_MAX"
+    },
+    "INT_FAST16_MAX":{
+        "prefix": "INT_FAST16_MAX",
+        "scope": "c",
+        "body": "INT_FAST16_MAX"
+    },
+    "INT_FAST32_MAX":{
+        "prefix": "INT_FAST32_MAX",
+        "scope": "c",
+        "body": "INT_FAST32_MAX"
+    },
+    "INT_FAST64_MAX":{
+        "prefix": "INT_FAST64_MAX",
+        "scope": "c",
+        "body": "INT_FAST64_MAX"
+    },
+    "UINT_FAST8_MAX":{
+        "prefix": "UINT_FAST8_MAX",
+        "scope": "c",
+        "body": "UINT_FAST8_MAX"
+    },
+    "UINT_FAST16_MAX":{
+        "prefix": "UINT_FAST16_MAX",
+        "scope": "c",
+        "body": "UINT_FAST16_MAX"
+    },
+    "UINT_FAST32_MAX":{
+        "prefix": "UINT_FAST32_MAX",
+        "scope": "c",
+        "body": "UINT_FAST32_MAX"
+    },
+    "UINT_FAST64_MAX":{
+        "prefix": "UINT_FAST64_MAX",
+        "scope": "c",
+        "body": "UINT_FAST64_MAX"
+    },
+    "INTPTR_MIN":{
+        "prefix": "INTPTR_MIN",
+        "scope": "c",
+        "body": "INTPTR_MIN"
+    },
+    "INTPTR_MAX":{
+        "prefix": "INTPTR_MAX",
+        "scope": "c",
+        "body": "INTPTR_MAX"
+    },
+    "UINTPTR_MAX":{
+        "prefix": "UINTPTR_MAX",
+        "scope": "c",
+        "body": "UINTPTR_MAX"
+    },
+    "INTMAX_MIN":{
+        "prefix": "INTMAX_MIN",
+        "scope": "c",
+        "body": "INTMAX_MIN"
+    },
+    "INTMAX_MAX":{
+        "prefix": "INTMAX_MAX",
+        "scope": "c",
+        "body": "INTMAX_MAX"
+    },
+    "UINTMAX_MAX":{
+        "prefix": "UINTMAX_MAX",
+        "scope": "c",
+        "body": "UINTMAX_MAX"
+    },
+    "PTRDIFF_MIN":{
+        "prefix": "PTRDIFF_MIN",
+        "scope": "c",
+        "body": "PTRDIFF_MIN"
+    },
+    "PTRDIFF_MAX":{
+        "prefix": "PTRDIFF_MAX",
+        "scope": "c",
+        "body": "PTRDIFF_MAX"
+    },
+    "SIG_ATOMIC_MIN":{
+        "prefix": "SIG_ATOMIC_MIN",
+        "scope": "c",
+        "body": "SIG_ATOMIC_MIN"
+    },
+    "SIG_ATOMIC_MAX":{
+        "prefix": "SIG_ATOMIC_MAX",
+        "scope": "c",
+        "body": "SIG_ATOMIC_MAX"
+    },
+    "SIZE_MAX":{
+        "prefix": "SIZE_MAX",
+        "scope": "c",
+        "body": "SIZE_MAX"
+    },
+    "WCHAR_MIN":{
+        "prefix": "WCHAR_MIN",
+        "scope": "c",
+        "body": "WCHAR_MIN"
+    },
+    "WCHAR_MAX":{
+        "prefix": "WCHAR_MAX",
+        "scope": "c",
+        "body": "WCHAR_MAX"
+    },
+    "WINT_MIN":{
+        "prefix": "WINT_MIN",
+        "scope": "c",
+        "body": "WINT_MIN"
+    },
+    "WINT_MAX":{
+        "prefix": "WINT_MAX",
+        "scope": "c",
+        "body": "WINT_MAX"
+    },
+    "INT8_C":{
+        "prefix": "INT8_C",
+        "scope": "c",
+        "body": "INT8_C"
+    },
+    "INT16_C":{
+        "prefix": "INT16_C",
+        "scope": "c",
+        "body": "INT16_C"
+    },
+    "INT32_C":{
+        "prefix": "INT32_C",
+        "scope": "c",
+        "body": "INT32_C"
+    },
+    "INT64_C":{
+        "prefix": "INT64_C",
+        "scope": "c",
+        "body": "INT64_C"
+    },
+    "UINT8_C":{
+        "prefix": "UINT8_C",
+        "scope": "c",
+        "body": "UINT8_C"
+    },
+    "UINT16_C":{
+        "prefix": "UINT16_C",
+        "scope": "c",
+        "body": "UINT16_C"
+    },
+    "UINT32_C":{
+        "prefix": "UINT32_C",
+        "scope": "c",
+        "body": "UINT32_C"
+    },
+    "UINT64_C":{
+        "prefix": "UINT64_C",
+        "scope": "c",
+        "body": "UINT64_C"
+    },
+    "INTMAX_C":{
+        "prefix": "INTMAX_C",
+        "scope": "c",
+        "body": "INTMAX_C"
+    },
+    "UINTMAX_C":{
+        "prefix": "UINTMAX_C",
+        "scope": "c",
+        "body": "UINTMAX_C"
+    }
+}
