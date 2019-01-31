@@ -1,0 +1,481 @@
+{
+    "USART_BaudRate":{
+        "prefix": "USART_BaudRate",
+        "scope": "c",
+        "body": "USART_BaudRate"
+    },
+    "USART_WordLength":{
+        "prefix": "USART_WordLength",
+        "scope": "c",
+        "body": "USART_WordLength"
+    },
+    "USART_StopBits":{
+        "prefix": "USART_StopBits",
+        "scope": "c",
+        "body": "USART_StopBits"
+    },
+    "USART_Parity":{
+        "prefix": "USART_Parity",
+        "scope": "c",
+        "body": "USART_Parity"
+    },
+    "USART_Mode":{
+        "prefix": "USART_Mode",
+        "scope": "c",
+        "body": "USART_Mode"
+    },
+    "USART_HardwareFlowControl":{
+        "prefix": "USART_HardwareFlowControl",
+        "scope": "c",
+        "body": "USART_HardwareFlowControl"
+    },
+    "USART_InitTypeDef":{
+        "prefix": "USART_InitTypeDef",
+        "scope": "c",
+        "body": [
+            "USART_InitTypeDef $1;",
+            "$1.USART_BaudRate = $2",
+            "$1.USART_WordLength = $3",
+            "$1.USART_StopBits = $4",
+            "$1.USART_Parity = $5",
+            "$1.USART_Mode = $6",
+            "$1.USART_HardwareFlowControl = $7"
+        ]
+    },
+    "USART_Clock":{
+        "prefix": "USART_Clock",
+        "scope": "c",
+        "body": "USART_Clock"
+    },
+    "USART_CPOL":{
+        "prefix": "USART_CPOL",
+        "scope": "c",
+        "body": "USART_CPOL"
+    },
+    "USART_CPHA":{
+        "prefix": "USART_CPHA",
+        "scope": "c",
+        "body": "USART_CPHA"
+    },
+    "USART_LastBit":{
+        "prefix": "USART_LastBit",
+        "scope": "c",
+        "body": "USART_LastBit"
+    },
+    "USART_ClockInitTypeDef":{
+        "prefix": "USART_ClockInitTypeDef",
+        "scope": "c",
+        "body": [
+            "USART_ClockInitTypeDef $1;",
+            "$1.USART_Clock = $2",
+            "$1.USART_CPOL = $3",
+            "$1.USART_CPHA = $4",
+            "$1.USART_LastBit = $5",
+        ]
+    },
+    "USART_WordLength_8b":{
+        "prefix": "USART_WordLength_8b",
+        "scope": "c",
+        "body": "USART_WordLength_8b"
+    },
+    "USART_WordLength_9b":{
+        "prefix": "USART_WordLength_9b",
+        "scope": "c",
+        "body": "USART_WordLength_9b"
+    },
+    "USART_StopBits_1":{
+        "prefix": "USART_StopBits_1",
+        "scope": "c",
+        "body": "USART_StopBits_1"
+    },
+    "USART_StopBits_0_5":{
+        "prefix": "USART_StopBits_0_5",
+        "scope": "c",
+        "body": "USART_StopBits_0_5"
+    },
+    "USART_StopBits_2":{
+        "prefix": "USART_StopBits_2",
+        "scope": "c",
+        "body": "USART_StopBits_2"
+    },
+    "USART_StopBits_1_5":{
+        "prefix": "USART_StopBits_1_5",
+        "scope": "c",
+        "body": "USART_StopBits_1_5"
+    },
+    "USART_Parity_No":{
+        "prefix": "USART_Parity_No",
+        "scope": "c",
+        "body": "USART_Parity_No"
+    },
+    "USART_Parity_Even":{
+        "prefix": "USART_Parity_Even",
+        "scope": "c",
+        "body": "USART_Parity_Even"
+    },
+    "USART_Parity_Odd":{
+        "prefix": "USART_Parity_Odd",
+        "scope": "c",
+        "body": "USART_Parity_Odd"
+    },
+    "USART_Mode_Rx":{
+        "prefix": "USART_Mode_Rx",
+        "scope": "c",
+        "body": "USART_Mode_Rx"
+    },
+    "USART_Mode_Tx":{
+        "prefix": "USART_Mode_Tx",
+        "scope": "c",
+        "body": "USART_Mode_Tx"
+    },
+    "USART_HardwareFlowControl_None":{
+        "prefix": "USART_HardwareFlowControl_None",
+        "scope": "c",
+        "body": "USART_HardwareFlowControl_None"
+    },
+    "USART_HardwareFlowControl_RTS":{
+        "prefix": "USART_HardwareFlowControl_RTS",
+        "scope": "c",
+        "body": "USART_HardwareFlowControl_RTS"
+    },
+    "USART_HardwareFlowControl_CTS":{
+        "prefix": "USART_HardwareFlowControl_CTS",
+        "scope": "c",
+        "body": "USART_HardwareFlowControl_CTS"
+    },
+    "USART_HardwareFlowControl_RTS_CTS":{
+        "prefix": "USART_HardwareFlowControl_RTS_CTS",
+        "scope": "c",
+        "body": "USART_HardwareFlowControl_RTS_CTS"
+    },
+    "USART_Clock_Disable":{
+        "prefix": "USART_Clock_Disable",
+        "scope": "c",
+        "body": "USART_Clock_Disable"
+    },
+    "USART_Clock_Enable":{
+        "prefix": "USART_Clock_Enable",
+        "scope": "c",
+        "body": "USART_Clock_Enable"
+    },
+    "USART_CPOL_Low":{
+        "prefix": "USART_CPOL_Low",
+        "scope": "c",
+        "body": "USART_CPOL_Low"
+    },
+    "USART_CPOL_High":{
+        "prefix": "USART_CPOL_High",
+        "scope": "c",
+        "body": "USART_CPOL_High"
+    },
+    "USART_CPHA_1Edge":{
+        "prefix": "USART_CPHA_1Edge",
+        "scope": "c",
+        "body": "USART_CPHA_1Edge"
+    },
+    "USART_CPHA_2Edge":{
+        "prefix": "USART_CPHA_2Edge",
+        "scope": "c",
+        "body": "USART_CPHA_2Edge"
+    },
+    "USART_LastBit_Disable":{
+        "prefix": "USART_LastBit_Disable",
+        "scope": "c",
+        "body": "USART_LastBit_Disable"
+    },
+    "USART_LastBit_Enable":{
+        "prefix": "USART_LastBit_Enable",
+        "scope": "c",
+        "body": "USART_LastBit_Enable"
+    },
+    "USART_IT_PE":{
+        "prefix": "USART_IT_PE",
+        "scope": "c",
+        "body": "USART_IT_PE"
+    },
+    "USART_IT_TXE":{
+        "prefix": "USART_IT_TXE",
+        "scope": "c",
+        "body": "USART_IT_TXE"
+    },
+    "USART_IT_TC":{
+        "prefix": "USART_IT_TC",
+        "scope": "c",
+        "body": "USART_IT_TC"
+    },
+    "USART_IT_RXNE":{
+        "prefix": "USART_IT_RXNE",
+        "scope": "c",
+        "body": "USART_IT_RXNE"
+    },
+    "USART_IT_IDLE":{
+        "prefix": "USART_IT_IDLE",
+        "scope": "c",
+        "body": "USART_IT_IDLE"
+    },
+    "USART_IT_LBD":{
+        "prefix": "USART_IT_LBD",
+        "scope": "c",
+        "body": "USART_IT_LBD"
+    },
+    "USART_IT_CTS":{
+        "prefix": "USART_IT_CTS",
+        "scope": "c",
+        "body": "USART_IT_CTS"
+    },
+    "USART_IT_ERR":{
+        "prefix": "USART_IT_ERR",
+        "scope": "c",
+        "body": "USART_IT_ERR"
+    },
+    "USART_IT_ORE":{
+        "prefix": "USART_IT_ORE",
+        "scope": "c",
+        "body": "USART_IT_ORE"
+    },
+    "USART_IT_NE":{
+        "prefix": "USART_IT_NE",
+        "scope": "c",
+        "body": "USART_IT_NE"
+    },
+    "USART_IT_FE":{
+        "prefix": "USART_IT_FE",
+        "scope": "c",
+        "body": "USART_IT_FE"
+    },
+    "USART_DMAReq_Tx":{
+        "prefix": "USART_DMAReq_Tx",
+        "scope": "c",
+        "body": "USART_DMAReq_Tx"
+    },
+    "USART_DMAReq_Rx":{
+        "prefix": "USART_DMAReq_Rx",
+        "scope": "c",
+        "body": "USART_DMAReq_Rx"
+    },
+    "USART_WakeUp_IdleLine":{
+        "prefix": "USART_WakeUp_IdleLine",
+        "scope": "c",
+        "body": "USART_WakeUp_IdleLine"
+    },
+    "USART_WakeUp_AddressMark":{
+        "prefix": "USART_WakeUp_AddressMark",
+        "scope": "c",
+        "body": "USART_WakeUp_AddressMark"
+    },
+    "USART_LINBreakDetectLength_10b":{
+        "prefix": "USART_LINBreakDetectLength_10b",
+        "scope": "c",
+        "body": "USART_LINBreakDetectLength_10b"
+    },
+    "USART_LINBreakDetectLength_11b":{
+        "prefix": "USART_LINBreakDetectLength_11b",
+        "scope": "c",
+        "body": "USART_LINBreakDetectLength_11b"
+    },
+    "USART_IrDAMode_LowPower":{
+        "prefix": "USART_IrDAMode_LowPower",
+        "scope": "c",
+        "body": "USART_IrDAMode_LowPower"
+    },
+    "USART_IrDAMode_Normal":{
+        "prefix": "USART_IrDAMode_Normal",
+        "scope": "c",
+        "body": "USART_IrDAMode_Normal"
+    },
+    "USART_FLAG_CTS":{
+        "prefix": "USART_FLAG_CTS",
+        "scope": "c",
+        "body": "USART_FLAG_CTS"
+    },
+    "USART_FLAG_LBD":{
+        "prefix": "USART_FLAG_LBD",
+        "scope": "c",
+        "body": "USART_FLAG_LBD"
+    },
+    "USART_FLAG_TXE":{
+        "prefix": "USART_FLAG_TXE",
+        "scope": "c",
+        "body": "USART_FLAG_TXE"
+    },
+    "USART_FLAG_TC":{
+        "prefix": "USART_FLAG_TC",
+        "scope": "c",
+        "body": "USART_FLAG_TC"
+    },
+    "USART_FLAG_RXNE":{
+        "prefix": "USART_FLAG_RXNE",
+        "scope": "c",
+        "body": "USART_FLAG_RXNE"
+    },
+    "USART_FLAG_IDLE":{
+        "prefix": "USART_FLAG_IDLE",
+        "scope": "c",
+        "body": "USART_FLAG_IDLE"
+    },
+    "USART_FLAG_ORE":{
+        "prefix": "USART_FLAG_ORE",
+        "scope": "c",
+        "body": "USART_FLAG_ORE"
+    },
+    "USART_FLAG_NE":{
+        "prefix": "USART_FLAG_NE",
+        "scope": "c",
+        "body": "USART_FLAG_NE"
+    },
+    "USART_FLAG_FE":{
+        "prefix": "USART_FLAG_FE",
+        "scope": "c",
+        "body": "USART_FLAG_FE"
+    },
+    "USART_FLAG_PE":{
+        "prefix": "USART_FLAG_PE",
+        "scope": "c",
+        "body": "USART_FLAG_PE"
+    },
+    "USART_DeInit":{
+        "prefix": "USART_DeInit",
+        "scope": "c",
+        "body": "USART_DeInit($1)"
+    },
+    "USART_Init":{
+        "prefix": "USART_Init",
+        "scope": "c",
+        "body": "USART_Init(${1:USART1}, $2)"
+    },
+    "USART_StructInit":{
+        "prefix": "USART_StructInit",
+        "scope": "c",
+        "body": "USART_StructInit($1)"
+    },
+    "USART_ClockInit":{
+        "prefix": "USART_ClockInit",
+        "scope": "c",
+        "body": "USART_ClockInit(${1:USART1}, $2)"
+    },
+    "USART_ClockStructInit":{
+        "prefix": "USART_ClockStructInit",
+        "scope": "c",
+        "body": "USART_ClockStructInit($1)"
+    },
+    "USART_Cmd":{
+        "prefix": "USART_Cmd",
+        "scope": "c",
+        "body": "USART_Cmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_ITConfig":{
+        "prefix": "USART_ITConfig",
+        "scope": "c",
+        "body": "USART_ITConfig(${1:USART1}, $2, ${3:ENABLE})"
+    },
+    "USART_DMACmd":{
+        "prefix": "USART_DMACmd",
+        "scope": "c",
+        "body": "USART_DMACmd(${1:USART1}, $2, ${3:ENABLE})"
+    },
+    "USART_SetAddress":{
+        "prefix": "USART_SetAddress",
+        "scope": "c",
+        "body": "USART_SetAddress(${1:USART1}, $2)"
+    },
+    "USART_WakeUpConfig":{
+        "prefix": "USART_WakeUpConfig",
+        "scope": "c",
+        "body": "USART_WakeUpConfig(${1:USART1}, $2)"
+    },
+    "USART_ReceiverWakeUpCmd":{
+        "prefix": "USART_ReceiverWakeUpCmd",
+        "scope": "c",
+        "body": "USART_ReceiverWakeUpCmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_LINBreakDetectLengthConfig":{
+        "prefix": "USART_LINBreakDetectLengthConfig",
+        "scope": "c",
+        "body": "USART_LINBreakDetectLengthConfig(${1:USART1}, $2)"
+    },
+    "USART_LINCmd":{
+        "prefix": "USART_LINCmd",
+        "scope": "c",
+        "body": "USART_LINCmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_SendData":{
+        "prefix": "USART_SendData",
+        "scope": "c",
+        "body": "USART_SendData(${1:USART1}, $2)"
+    },
+    "USART_ReceiveData":{
+        "prefix": "USART_ReceiveData",
+        "scope": "c",
+        "body": "USART_ReceiveData(${1:USART1})"
+    },
+    "USART_SendBreak":{
+        "prefix": "USART_SendBreak",
+        "scope": "c",
+        "body": "USART_SendBreak(${1:USART1})"
+    },
+    "USART_SetPrescaler":{
+        "prefix": "USART_SetPrescaler",
+        "scope": "c",
+        "body": "USART_SetPrescaler(${1:USART1}, $2)"
+    },
+    "USART_SetGuardTime":{
+        "prefix": "USART_SetGuardTime",
+        "scope": "c",
+        "body": "USART_SetGuardTime(${1:USART1}, $2)"
+    },
+    "USART_SmartCardCmd":{
+        "prefix": "USART_SmartCardCmd",
+        "scope": "c",
+        "body": "USART_SmartCardCmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_SmartCardNACKCmd":{
+        "prefix": "USART_SmartCardNACKCmd",
+        "scope": "c",
+        "body": "USART_SmartCardNACKCmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_HalfDuplexCmd":{
+        "prefix": "USART_HalfDuplexCmd",
+        "scope": "c",
+        "body": "USART_HalfDuplexCmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_OverSampling8Cmd":{
+        "prefix": "USART_OverSampling8Cmd",
+        "scope": "c",
+        "body": "USART_OverSampling8Cmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_OneBitMethodCmd":{
+        "prefix": "USART_OneBitMethodCmd",
+        "scope": "c",
+        "body": "USART_OneBitMethodCmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_IrDAConfig":{
+        "prefix": "USART_IrDAConfig",
+        "scope": "c",
+        "body": "USART_IrDAConfig(${1:USART1}, $2)"
+    },
+    "USART_IrDACmd":{
+        "prefix": "USART_IrDACmd",
+        "scope": "c",
+        "body": "USART_IrDACmd(${1:USART1}, ${2:ENABLE})"
+    },
+    "USART_GetFlagStatus":{
+        "prefix": "USART_GetFlagStatus",
+        "scope": "c",
+        "body": "USART_GetFlagStatus(${1:USART1}, $2)"
+    },
+    "USART_ClearFlag":{
+        "prefix": "USART_ClearFlag",
+        "scope": "c",
+        "body": "USART_ClearFlag(${1:USART1}, $2)"
+    },
+    "USART_GetITStatus":{
+        "prefix": "USART_GetITStatus",
+        "scope": "c",
+        "body": "USART_GetITStatus(${1:USART1}, $2)"
+    },
+    "USART_ClearITPendingBit":{
+        "prefix": "USART_ClearITPendingBit",
+        "scope": "c",
+        "body": "USART_ClearITPendingBit(${1:USART1}, $2)"
+    }
+}

@@ -28,7 +28,7 @@
         "prefix": "RCC_ClocksTypeDef",
         "scope": "c",
         "body": [
-            "RCC_ClocksTypeDef $1",
+            "RCC_ClocksTypeDef $1;",
             "$1.SYSCLK_Frequency = $2",
             "$1.HCLK_Frequency = $3",
             "$1.PCLK1_Frequency = $4",
