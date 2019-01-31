@@ -119,10 +119,25 @@
         "scope": "c",
         "body": "GPIO_Pin_All"
     },
-    "GPIO_ReadInputData":{
-        "prefix": "GPIO_ReadInputData",
+    "GPIO_DeInit":{
+        "prefix": "GPIO_DeInit",
         "scope": "c",
-        "body": "GPIO_ReadInputData(GPIO${1:A})"
+        "body": "GPIO_DeInit(GPIO${1:A})"
+    },
+    "GPIO_AFIODeInit":{
+        "prefix": "GPIO_AFIODeInit",
+        "scope": "c",
+        "body": "GPIO_AFIODeInit()"
+    },
+    "GPIO_StructInit":{
+        "prefix": "GPIO_StructInit",
+        "scope": "c",
+        "body": "GPIO_StructInit($1)"
+    },
+    "GPIO_Init":{
+        "prefix": "GPIO_Init",
+        "scope": "c",
+        "body": "GPIO_Init(${1:GPIOA}, $2)"
     },
     "GPIO_ReadInputDataBit":{
         "prefix": "GPIO_ReadInputDataBit",
