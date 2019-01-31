@@ -1,0 +1,849 @@
+{
+    "SYSCLK_Frequency":{
+        "prefix": "SYSCLK_Frequency",
+        "scope": "c",
+        "body": "SYSCLK_Frequency"
+    },
+    "HCLK_Frequency":{
+        "prefix": "HCLK_Frequency",
+        "scope": "c",
+        "body": "HCLK_Frequency"
+    },
+    "PCLK1_Frequency":{
+        "prefix": "PCLK1_Frequency",
+        "scope": "c",
+        "body": "PCLK1_Frequency"
+    },
+    "PCLK2_Frequency":{
+        "prefix": "PCLK2_Frequency",
+        "scope": "c",
+        "body": "PCLK2_Frequency"
+    },
+    "ADCCLK_Frequency":{
+        "prefix": "ADCCLK_Frequency",
+        "scope": "c",
+        "body": "ADCCLK_Frequency"
+    },
+    "RCC_ClocksTypeDef":{
+        "prefix": "RCC_ClocksTypeDef",
+        "scope": "c",
+        "body": [
+            "RCC_ClocksTypeDef $1",
+            "$1.SYSCLK_Frequency = $2",
+            "$1.HCLK_Frequency = $3",
+            "$1.PCLK1_Frequency = $4",
+            "$1.PCLK2_Frequency = $5",
+            "$1.ADCCLK_Frequency = $6"
+        ]
+    },
+    "RCC_HSE_OFF":{
+        "prefix": "RCC_HSE_OFF",
+        "scope": "c",
+        "body": "RCC_HSE_OFF"
+    },
+    "RCC_HSE_ON":{
+        "prefix": "RCC_HSE_ON",
+        "scope": "c",
+        "body": "RCC_HSE_ON"
+    },
+    "RCC_HSE_Bypass":{
+        "prefix": "RCC_HSE_Bypass",
+        "scope": "c",
+        "body": "RCC_HSE_Bypass"
+    },
+    "IS_RCC_HSE":{
+        "prefix": "IS_RCC_HSE",
+        "scope": "c",
+        "body": "IS_RCC_HSE"
+    },
+    "RCC_PLLSource_HSI_Div2":{
+        "prefix": "RCC_PLLSource_HSI_Div2",
+        "scope": "c",
+        "body": "RCC_PLLSource_HSI_Div2"
+    },
+    "RCC_PLLSource_HSE_Div1":{
+        "prefix": "RCC_PLLSource_HSE_Div1",
+        "scope": "c",
+        "body": "RCC_PLLSource_HSE_Div1"
+    },
+    "RCC_PLLSource_HSE_Div2":{
+        "prefix": "RCC_PLLSource_HSE_Div2",
+        "scope": "c",
+        "body": "RCC_PLLSource_HSE_Div2"
+    },
+    "RCC_PLLMul_2":{
+        "prefix": "RCC_PLLMul_2",
+        "scope": "c",
+        "body": "RCC_PLLMul_2"
+    },
+    "RCC_PLLMul_3":{
+        "prefix": "RCC_PLLMul_3",
+        "scope": "c",
+        "body": "RCC_PLLMul_3"
+    },
+    "RCC_PLLMul_4":{
+        "prefix": "RCC_PLLMul_4",
+        "scope": "c",
+        "body": "RCC_PLLMul_4"
+    },
+    "RCC_PLLMul_5":{
+        "prefix": "RCC_PLLMul_5",
+        "scope": "c",
+        "body": "RCC_PLLMul_5"
+    },
+    "RCC_PLLMul_6":{
+        "prefix": "RCC_PLLMul_6",
+        "scope": "c",
+        "body": "RCC_PLLMul_6"
+    },
+    "RCC_PLLMul_7":{
+        "prefix": "RCC_PLLMul_7",
+        "scope": "c",
+        "body": "RCC_PLLMul_7"
+    },
+    "RCC_PLLMul_8":{
+        "prefix": "RCC_PLLMul_8",
+        "scope": "c",
+        "body": "RCC_PLLMul_8"
+    },
+    "RCC_PLLMul_9":{
+        "prefix": "RCC_PLLMul_9",
+        "scope": "c",
+        "body": "RCC_PLLMul_9"
+    },
+    "RCC_PLLMul_10":{
+        "prefix": "RCC_PLLMul_10",
+        "scope": "c",
+        "body": "RCC_PLLMul_10"
+    },
+    "RCC_PLLMul_11":{
+        "prefix": "RCC_PLLMul_11",
+        "scope": "c",
+        "body": "RCC_PLLMul_11"
+    },
+    "RCC_PLLMul_12":{
+        "prefix": "RCC_PLLMul_12",
+        "scope": "c",
+        "body": "RCC_PLLMul_12"
+    },
+    "RCC_PLLMul_13":{
+        "prefix": "RCC_PLLMul_13",
+        "scope": "c",
+        "body": "RCC_PLLMul_13"
+    },
+    "RCC_PLLMul_14":{
+        "prefix": "RCC_PLLMul_14",
+        "scope": "c",
+        "body": "RCC_PLLMul_14"
+    },
+    "RCC_PLLMul_15":{
+        "prefix": "RCC_PLLMul_15",
+        "scope": "c",
+        "body": "RCC_PLLMul_15"
+    },
+    "RCC_PLLMul_16":{
+        "prefix": "RCC_PLLMul_16",
+        "scope": "c",
+        "body": "RCC_PLLMul_16"
+    },
+    "RCC_SYSCLKSource_HSI":{
+        "prefix": "RCC_SYSCLKSource_HSI",
+        "scope": "c",
+        "body": "RCC_SYSCLKSource_HSI"
+    },
+    "RCC_SYSCLKSource_HSE":{
+        "prefix": "RCC_SYSCLKSource_HSE",
+        "scope": "c",
+        "body": "RCC_SYSCLKSource_HSE"
+    },
+    "RCC_SYSCLKSource_PLLCLK":{
+        "prefix": "RCC_SYSCLKSource_PLLCLK",
+        "scope": "c",
+        "body": "RCC_SYSCLKSource_PLLCLK"
+    },
+    "RCC_SYSCLK_Div1":{
+        "prefix": "RCC_SYSCLK_Div1",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div1"
+    },
+    "RCC_SYSCLK_Div2":{
+        "prefix": "RCC_SYSCLK_Div2",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div2"
+    },
+    "RCC_SYSCLK_Div4":{
+        "prefix": "RCC_SYSCLK_Div4",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div4"
+    },
+    "RCC_SYSCLK_Div8":{
+        "prefix": "RCC_SYSCLK_Div8",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div8"
+    },
+    "RCC_SYSCLK_Div16":{
+        "prefix": "RCC_SYSCLK_Div16",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div16"
+    },
+    "RCC_SYSCLK_Div64":{
+        "prefix": "RCC_SYSCLK_Div64",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div64"
+    },
+    "RCC_SYSCLK_Div128":{
+        "prefix": "RCC_SYSCLK_Div128",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div128"
+    },
+    "RCC_SYSCLK_Div256":{
+        "prefix": "RCC_SYSCLK_Div256",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div256"
+    },
+    "RCC_SYSCLK_Div512":{
+        "prefix": "RCC_SYSCLK_Div512",
+        "scope": "c",
+        "body": "RCC_SYSCLK_Div512"
+    },
+    "RCC_HCLK_Div1":{
+        "prefix": "RCC_HCLK_Div1",
+        "scope": "c",
+        "body": "RCC_HCLK_Div1"
+    },
+    "RCC_HCLK_Div2":{
+        "prefix": "RCC_HCLK_Div2",
+        "scope": "c",
+        "body": "RCC_HCLK_Div2"
+    },
+    "RCC_HCLK_Div4":{
+        "prefix": "RCC_HCLK_Div4",
+        "scope": "c",
+        "body": "RCC_HCLK_Div4"
+    },
+    "RCC_HCLK_Div8":{
+        "prefix": "RCC_HCLK_Div8",
+        "scope": "c",
+        "body": "RCC_HCLK_Div8"
+    },
+    "RCC_HCLK_Div16":{
+        "prefix": "RCC_HCLK_Div16",
+        "scope": "c",
+        "body": "RCC_HCLK_Div16"
+    },
+    "RCC_IT_LSIRDY":{
+        "prefix": "RCC_IT_LSIRDY",
+        "scope": "c",
+        "body": "RCC_IT_LSIRDY"
+    },
+    "RCC_IT_LSERDY":{
+        "prefix": "RCC_IT_LSERDY",
+        "scope": "c",
+        "body": "RCC_IT_LSERDY"
+    },
+    "RCC_IT_HSIRDY":{
+        "prefix": "RCC_IT_HSIRDY",
+        "scope": "c",
+        "body": "RCC_IT_HSIRDY"
+    },
+    "RCC_IT_HSERDY":{
+        "prefix": "RCC_IT_HSERDY",
+        "scope": "c",
+        "body": "RCC_IT_HSERDY"
+    },
+    "RCC_IT_PLLRDY":{
+        "prefix": "RCC_IT_PLLRDY",
+        "scope": "c",
+        "body": "RCC_IT_PLLRDY"
+    },
+    "RCC_IT_CSS":{
+        "prefix": "RCC_IT_CSS",
+        "scope": "c",
+        "body": "RCC_IT_CSS"
+    },
+    "RCC_USBCLKSource_PLLCLK_1Div5":{
+        "prefix": "RCC_USBCLKSource_PLLCLK_1Div5",
+        "scope": "c",
+        "body": "RCC_USBCLKSource_PLLCLK_1Div5"
+    },
+    "RCC_USBCLKSource_PLLCLK_Div1":{
+        "prefix": "RCC_USBCLKSource_PLLCLK_Div1",
+        "scope": "c",
+        "body": "RCC_USBCLKSource_PLLCLK_Div1"
+    },
+    "RCC_PCLK2_Div2":{
+        "prefix": "RCC_PCLK2_Div2",
+        "scope": "c",
+        "body": "RCC_PCLK2_Div2"
+    },
+    "RCC_PCLK2_Div4":{
+        "prefix": "RCC_PCLK2_Div4",
+        "scope": "c",
+        "body": "RCC_PCLK2_Div4"
+    },
+    "RCC_PCLK2_Div6":{
+        "prefix": "RCC_PCLK2_Div6",
+        "scope": "c",
+        "body": "RCC_PCLK2_Div6"
+    },
+    "RCC_PCLK2_Div8":{
+        "prefix": "RCC_PCLK2_Div8",
+        "scope": "c",
+        "body": "RCC_PCLK2_Div8"
+    },
+    "RCC_LSE_OFF":{
+        "prefix": "RCC_LSE_OFF",
+        "scope": "c",
+        "body": "RCC_LSE_OFF"
+    },
+    "RCC_LSE_ON":{
+        "prefix": "RCC_LSE_ON",
+        "scope": "c",
+        "body": "RCC_LSE_ON"
+    },
+    "RCC_LSE_Bypass":{
+        "prefix": "RCC_LSE_Bypass",
+        "scope": "c",
+        "body": "RCC_LSE_Bypass"
+    },
+    "RCC_RTCCLKSource_LSE":{
+        "prefix": "RCC_RTCCLKSource_LSE",
+        "scope": "c",
+        "body": "RCC_RTCCLKSource_LSE"
+    },
+    "RCC_RTCCLKSource_LSI":{
+        "prefix": "RCC_RTCCLKSource_LSI",
+        "scope": "c",
+        "body": "RCC_RTCCLKSource_LSI"
+    },
+    "RCC_RTCCLKSource_HSE_Div128":{
+        "prefix": "RCC_RTCCLKSource_HSE_Div128",
+        "scope": "c",
+        "body": "RCC_RTCCLKSource_HSE_Div128"
+    },
+    "RCC_AHBPeriph_DMA1":{
+        "prefix": "RCC_AHBPeriph_DMA1",
+        "scope": "c",
+        "body": "RCC_AHBPeriph_DMA1"
+    },
+    "RCC_AHBPeriph_DMA2":{
+        "prefix": "RCC_AHBPeriph_DMA2",
+        "scope": "c",
+        "body": "RCC_AHBPeriph_DMA2"
+    },
+    "RCC_AHBPeriph_SRAM":{
+        "prefix": "RCC_AHBPeriph_SRAM",
+        "scope": "c",
+        "body": "RCC_AHBPeriph_SRAM"
+    },
+    "RCC_AHBPeriph_FLITF":{
+        "prefix": "RCC_AHBPeriph_FLITF",
+        "scope": "c",
+        "body": "RCC_AHBPeriph_FLITF"
+    },
+    "RCC_AHBPeriph_CRC":{
+        "prefix": "RCC_AHBPeriph_CRC",
+        "scope": "c",
+        "body": "RCC_AHBPeriph_CRC"
+    },
+    "RCC_AHBPeriph_FSMC":{
+        "prefix": "RCC_AHBPeriph_FSMC",
+        "scope": "c",
+        "body": "RCC_AHBPeriph_FSMC"
+    },
+    "RCC_AHBPeriph_SDIO":{
+        "prefix": "RCC_AHBPeriph_SDIO",
+        "scope": "c",
+        "body": "RCC_AHBPeriph_SDIO"
+    },
+    "RCC_APB2Periph_AFIO":{
+        "prefix": "RCC_APB2Periph_AFIO",
+        "scope": "c",
+        "body": "RCC_APB2Periph_AFIO"
+    },
+    "RCC_APB2Periph_GPIOA":{
+        "prefix": "RCC_APB2Periph_GPIOA",
+        "scope": "c",
+        "body": "RCC_APB2Periph_GPIOA"
+    },
+    "RCC_APB2Periph_GPIOB":{
+        "prefix": "RCC_APB2Periph_GPIOB",
+        "scope": "c",
+        "body": "RCC_APB2Periph_GPIOB"
+    },
+    "RCC_APB2Periph_GPIOC":{
+        "prefix": "RCC_APB2Periph_GPIOC",
+        "scope": "c",
+        "body": "RCC_APB2Periph_GPIOC"
+    },
+    "RCC_APB2Periph_GPIOD":{
+        "prefix": "RCC_APB2Periph_GPIOD",
+        "scope": "c",
+        "body": "RCC_APB2Periph_GPIOD"
+    },
+    "RCC_APB2Periph_GPIOE":{
+        "prefix": "RCC_APB2Periph_GPIOE",
+        "scope": "c",
+        "body": "RCC_APB2Periph_GPIOE"
+    },
+    "RCC_APB2Periph_GPIOF":{
+        "prefix": "RCC_APB2Periph_GPIOF",
+        "scope": "c",
+        "body": "RCC_APB2Periph_GPIOF"
+    },
+    "RCC_APB2Periph_GPIOG":{
+        "prefix": "RCC_APB2Periph_GPIOG",
+        "scope": "c",
+        "body": "RCC_APB2Periph_GPIOG"
+    },
+    "RCC_APB2Periph_ADC1":{
+        "prefix": "RCC_APB2Periph_ADC1",
+        "scope": "c",
+        "body": "RCC_APB2Periph_ADC1"
+    },
+    "RCC_APB2Periph_ADC2":{
+        "prefix": "RCC_APB2Periph_ADC2",
+        "scope": "c",
+        "body": "RCC_APB2Periph_ADC2"
+    },
+    "RCC_APB2Periph_TIM1":{
+        "prefix": "RCC_APB2Periph_TIM1",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM1"
+    },
+    "RCC_APB2Periph_SPI1":{
+        "prefix": "RCC_APB2Periph_SPI1",
+        "scope": "c",
+        "body": "RCC_APB2Periph_SPI1"
+    },
+    "RCC_APB2Periph_TIM8":{
+        "prefix": "RCC_APB2Periph_TIM8",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM8"
+    },
+    "RCC_APB2Periph_USART1":{
+        "prefix": "RCC_APB2Periph_USART1",
+        "scope": "c",
+        "body": "RCC_APB2Periph_USART1"
+    },
+    "RCC_APB2Periph_ADC3":{
+        "prefix": "RCC_APB2Periph_ADC3",
+        "scope": "c",
+        "body": "RCC_APB2Periph_ADC3"
+    },
+    "RCC_APB2Periph_TIM15":{
+        "prefix": "RCC_APB2Periph_TIM15",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM15"
+    },
+    "RCC_APB2Periph_TIM16":{
+        "prefix": "RCC_APB2Periph_TIM16",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM16"
+    },
+    "RCC_APB2Periph_TIM17":{
+        "prefix": "RCC_APB2Periph_TIM17",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM17"
+    },
+    "RCC_APB2Periph_TIM9":{
+        "prefix": "RCC_APB2Periph_TIM9",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM9"
+    },
+    "RCC_APB2Periph_TIM10":{
+        "prefix": "RCC_APB2Periph_TIM10",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM10"
+    },
+    "RCC_APB2Periph_TIM11":{
+        "prefix": "RCC_APB2Periph_TIM11",
+        "scope": "c",
+        "body": "RCC_APB2Periph_TIM11"
+    },
+    "RCC_APB1Periph_TIM2":{
+        "prefix": "RCC_APB1Periph_TIM2",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM2"
+    },
+    "RCC_APB1Periph_TIM3":{
+        "prefix": "RCC_APB1Periph_TIM3",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM3"
+    },
+    "RCC_APB1Periph_TIM4":{
+        "prefix": "RCC_APB1Periph_TIM4",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM4"
+    },
+    "RCC_APB1Periph_TIM5":{
+        "prefix": "RCC_APB1Periph_TIM5",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM5"
+    },
+    "RCC_APB1Periph_TIM6":{
+        "prefix": "RCC_APB1Periph_TIM6",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM6"
+    },
+    "RCC_APB1Periph_TIM7":{
+        "prefix": "RCC_APB1Periph_TIM7",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM7"
+    },
+    "RCC_APB1Periph_TIM12":{
+        "prefix": "RCC_APB1Periph_TIM12",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM12"
+    },
+    "RCC_APB1Periph_TIM13":{
+        "prefix": "RCC_APB1Periph_TIM13",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM13"
+    },
+    "RCC_APB1Periph_TIM14":{
+        "prefix": "RCC_APB1Periph_TIM14",
+        "scope": "c",
+        "body": "RCC_APB1Periph_TIM14"
+    },
+    "RCC_APB1Periph_WWDG":{
+        "prefix": "RCC_APB1Periph_WWDG",
+        "scope": "c",
+        "body": "RCC_APB1Periph_WWDG"
+    },
+    "RCC_APB1Periph_SPI2":{
+        "prefix": "RCC_APB1Periph_SPI2",
+        "scope": "c",
+        "body": "RCC_APB1Periph_SPI2"
+    },
+    "RCC_APB1Periph_SPI3":{
+        "prefix": "RCC_APB1Periph_SPI3",
+        "scope": "c",
+        "body": "RCC_APB1Periph_SPI3"
+    },
+    "RCC_APB1Periph_USART2":{
+        "prefix": "RCC_APB1Periph_USART2",
+        "scope": "c",
+        "body": "RCC_APB1Periph_USART2"
+    },
+    "RCC_APB1Periph_USART3":{
+        "prefix": "RCC_APB1Periph_USART3",
+        "scope": "c",
+        "body": "RCC_APB1Periph_USART3"
+    },
+    "RCC_APB1Periph_UART4":{
+        "prefix": "RCC_APB1Periph_UART4",
+        "scope": "c",
+        "body": "RCC_APB1Periph_UART4"
+    },
+    "RCC_APB1Periph_UART5":{
+        "prefix": "RCC_APB1Periph_UART5",
+        "scope": "c",
+        "body": "RCC_APB1Periph_UART5"
+    },
+    "RCC_APB1Periph_I2C1":{
+        "prefix": "RCC_APB1Periph_I2C1",
+        "scope": "c",
+        "body": "RCC_APB1Periph_I2C1"
+    },
+    "RCC_APB1Periph_I2C2":{
+        "prefix": "RCC_APB1Periph_I2C2",
+        "scope": "c",
+        "body": "RCC_APB1Periph_I2C2"
+    },
+    "RCC_APB1Periph_USB":{
+        "prefix": "RCC_APB1Periph_USB",
+        "scope": "c",
+        "body": "RCC_APB1Periph_USB"
+    },
+    "RCC_APB1Periph_CAN1":{
+        "prefix": "RCC_APB1Periph_CAN1",
+        "scope": "c",
+        "body": "RCC_APB1Periph_CAN1"
+    },
+    "RCC_APB1Periph_CAN2":{
+        "prefix": "RCC_APB1Periph_CAN2",
+        "scope": "c",
+        "body": "RCC_APB1Periph_CAN2"
+    },
+    "RCC_APB1Periph_BKP":{
+        "prefix": "RCC_APB1Periph_BKP",
+        "scope": "c",
+        "body": "RCC_APB1Periph_BKP"
+    },
+    "RCC_APB1Periph_PWR":{
+        "prefix": "RCC_APB1Periph_PWR",
+        "scope": "c",
+        "body": "RCC_APB1Periph_PWR"
+    },
+    "RCC_APB1Periph_DAC":{
+        "prefix": "RCC_APB1Periph_DAC",
+        "scope": "c",
+        "body": "RCC_APB1Periph_DAC"
+    },
+    "RCC_APB1Periph_CEC":{
+        "prefix": "RCC_APB1Periph_CEC",
+        "scope": "c",
+        "body": "RCC_APB1Periph_CEC"
+    },
+    "RCC_MCO_NoClock":{
+        "prefix": "RCC_MCO_NoClock",
+        "scope": "c",
+        "body": "RCC_MCO_NoClock"
+    },
+    "RCC_MCO_SYSCLK":{
+        "prefix": "RCC_MCO_SYSCLK",
+        "scope": "c",
+        "body": "RCC_MCO_SYSCLK"
+    },
+    "RCC_MCO_HSI":{
+        "prefix": "RCC_MCO_HSI",
+        "scope": "c",
+        "body": "RCC_MCO_HSI"
+    },
+    "RCC_MCO_HSE":{
+        "prefix": "RCC_MCO_HSE",
+        "scope": "c",
+        "body": "RCC_MCO_HSE"
+    },
+    "RCC_MCO_PLLCLK_Div2":{
+        "prefix": "RCC_MCO_PLLCLK_Div2",
+        "scope": "c",
+        "body": "RCC_MCO_PLLCLK_Div2"
+    },
+    "RCC_FLAG_HSIRDY":{
+        "prefix": "RCC_FLAG_HSIRDY",
+        "scope": "c",
+        "body": "RCC_FLAG_HSIRDY"
+    },
+    "RCC_FLAG_HSERDY":{
+        "prefix": "RCC_FLAG_HSERDY",
+        "scope": "c",
+        "body": "RCC_FLAG_HSERDY"
+    },
+    "RCC_FLAG_PLLRDY":{
+        "prefix": "RCC_FLAG_PLLRDY",
+        "scope": "c",
+        "body": "RCC_FLAG_PLLRDY"
+    },
+    "RCC_FLAG_LSERDY":{
+        "prefix": "RCC_FLAG_LSERDY",
+        "scope": "c",
+        "body": "RCC_FLAG_LSERDY"
+    },
+    "RCC_FLAG_LSIRDY":{
+        "prefix": "RCC_FLAG_LSIRDY",
+        "scope": "c",
+        "body": "RCC_FLAG_LSIRDY"
+    },
+    "RCC_FLAG_PINRST":{
+        "prefix": "RCC_FLAG_PINRST",
+        "scope": "c",
+        "body": "RCC_FLAG_PINRST"
+    },
+    "RCC_FLAG_PORRST":{
+        "prefix": "RCC_FLAG_PORRST",
+        "scope": "c",
+        "body": "RCC_FLAG_PORRST"
+    },
+    "RCC_FLAG_SFTRST":{
+        "prefix": "RCC_FLAG_SFTRST",
+        "scope": "c",
+        "body": "RCC_FLAG_SFTRST"
+    },
+    "RCC_FLAG_IWDGRST":{
+        "prefix": "RCC_FLAG_IWDGRST",
+        "scope": "c",
+        "body": "RCC_FLAG_IWDGRST"
+    },
+    "RCC_FLAG_WWDGRST":{
+        "prefix": "RCC_FLAG_WWDGRST",
+        "scope": "c",
+        "body": "RCC_FLAG_WWDGRST"
+    },
+    "RCC_FLAG_LPWRRST":{
+        "prefix": "RCC_FLAG_LPWRRST",
+        "scope": "c",
+        "body": "RCC_FLAG_LPWRRST"
+    },
+    "RCC_DeInit":{
+        "prefix": "RCC_DeInit",
+        "scope": "c",
+        "body": "RCC_DeInit()"
+    },
+    "RCC_HSEConfig":{
+        "prefix": "RCC_HSEConfig",
+        "scope": "c",
+        "body": "RCC_HSEConfig($1)"
+    },
+    "RCC_WaitForHSEStartUp":{
+        "prefix": "RCC_WaitForHSEStartUp",
+        "scope": "c",
+        "body": "RCC_WaitForHSEStartUp()"
+    },
+    "RCC_AdjustHSICalibrationValue":{
+        "prefix": "RCC_AdjustHSICalibrationValue",
+        "scope": "c",
+        "body": "RCC_AdjustHSICalibrationValue($1)"
+    },
+    "RCC_HSICmd":{
+        "prefix": "RCC_HSICmd",
+        "scope": "c",
+        "body": "RCC_HSICmd(${1:ENABLE})"
+    },
+    "RCC_PLLConfig":{
+        "prefix": "RCC_PLLConfig",
+        "scope": "c",
+        "body": "RCC_PLLConfig($1, $2)"
+    },
+    "RCC_PLLCmd":{
+        "prefix": "RCC_PLLCmd",
+        "scope": "c",
+        "body": "RCC_PLLCmd(${1:ENABLE})"
+    },
+    "RCC_SYSCLKConfig":{
+        "prefix": "RCC_SYSCLKConfig",
+        "scope": "c",
+        "body": "RCC_SYSCLKConfig($1)"
+    },
+    "RCC_GetSYSCLKSource":{
+        "prefix": "RCC_GetSYSCLKSource",
+        "scope": "c",
+        "body": "RCC_GetSYSCLKSource()"
+    },
+    "RCC_HCLKConfig":{
+        "prefix": "RCC_HCLKConfig",
+        "scope": "c",
+        "body": "RCC_HCLKConfig($1)"
+    },
+    "RCC_PCLK1Config":{
+        "prefix": "RCC_PCLK1Config",
+        "scope": "c",
+        "body": "RCC_PCLK1Config($1)"
+    },
+    "RCC_PCLK2Config":{
+        "prefix": "RCC_PCLK2Config",
+        "scope": "c",
+        "body": "RCC_PCLK2Config($1)"
+    },
+    "RCC_ITConfig":{
+        "prefix": "RCC_ITConfig",
+        "scope": "c",
+        "body": "RCC_ITConfig($1, ${2:ENABLE})"
+    },
+    "RCC_USBCLKConfig":{
+        "prefix": "RCC_USBCLKConfig",
+        "scope": "c",
+        "body": "RCC_USBCLKConfig($1)"
+    },
+    "RCC_ADCCLKConfig":{
+        "prefix": "RCC_ADCCLKConfig",
+        "scope": "c",
+        "body": "RCC_ADCCLKConfig($1)"
+    },
+    "RCC_LSEConfig":{
+        "prefix": "RCC_LSEConfig",
+        "scope": "c",
+        "body": "RCC_LSEConfig($1)"
+    },
+    "RCC_LSICmd":{
+        "prefix": "RCC_LSICmd",
+        "scope": "c",
+        "body": "RCC_LSICmd(${1:ENABLE})"
+    },
+    "RCC_RTCCLKConfig":{
+        "prefix": "RCC_RTCCLKConfig",
+        "scope": "c",
+        "body": "RCC_RTCCLKConfig($1)"
+    },
+    "RCC_RTCCLKCmd":{
+        "prefix": "RCC_RTCCLKCmd",
+        "scope": "c",
+        "body": "RCC_RTCCLKCmd(${1:ENABLE})"
+    },
+    "RCC_GetClocksFreq":{
+        "prefix": "RCC_GetClocksFreq",
+        "scope": "c",
+        "body": "RCC_GetClocksFreq($1)"
+    },
+    "RCC_AHBPeriphClockCmd":{
+        "prefix": "RCC_AHBPeriphClockCmd",
+        "scope": "c",
+        "body": "RCC_AHBPeriphClockCmd($1, ${2:ENABLE})"
+    },
+    "RCC_APB1PeriphClockCmd":{
+        "prefix": "RCC_APB1PeriphClockCmd",
+        "scope": "c",
+        "body": "RCC_APB1PeriphClockCmd($1, ${2:ENABLE})"
+    },
+    "RCC_APB2PeriphClockCmd":{
+        "prefix": "RCC_APB2PeriphClockCmd",
+        "scope": "c",
+        "body": [
+            "RCC_APB2PeriphClockCmd($1, ${2:ENABLE})"
+        ]
+    },
+    "RCC_APB2PeriphResetCmd":{
+        "prefix": "RCC_APB2PeriphResetCmd",
+        "scope": "c",
+        "body": [
+            "RCC_APB2PeriphResetCmd($1, ${2:ENABLE})"
+        ]
+    },
+    "RCC_APB1PeriphResetCmd":{
+        "prefix": "RCC_APB1PeriphResetCmd",
+        "scope": "c",
+        "body": [
+            "RCC_APB1PeriphResetCmd($1, ${2:ENABLE})"
+        ]
+    },
+    "RCC_BackupResetCmd":{
+        "prefix": "RCC_BackupResetCmd",
+        "scope": "c",
+        "body": [
+            "RCC_BackupResetCmd(${1:ENABLE})"
+        ]
+    },
+    "RCC_ClockSecuritySystemCmd":{
+        "prefix": "RCC_ClockSecuritySystemCmd",
+        "scope": "c",
+        "body": [
+            "RCC_ClockSecuritySystemCmd(${1:ENABLE})"
+        ]
+    },
+    "RCC_MCOConfig":{
+        "prefix": "RCC_MCOConfig",
+        "scope": "c",
+        "body": [
+            "RCC_MCOConfig($1)"
+        ]
+    },
+    "RCC_GetFlagStatus":{
+        "prefix": "RCC_GetFlagStatus",
+        "scope": "c",
+        "body": [
+            "RCC_GetFlagStatus($1)"
+        ]
+    },
+    "RCC_ClearFlag":{
+        "prefix": "RCC_ClearFlag",
+        "scope": "c",
+        "body": [
+            "RCC_ClearFlag()"
+        ]
+    },
+    "RCC_GetITStatus":{
+        "prefix": "RCC_GetITStatus",
+        "scope": "c",
+        "body": [
+            "RCC_GetITStatus($1)"
+        ]
+    },
+    "RCC_ClearITPendingBit":{
+        "prefix": "RCC_ClearITPendingBit",
+        "scope": "c",
+        "body": [
+            "RCC_ClearITPendingBit($1)"
+        ]
+    }
+}
