@@ -4,6 +4,21 @@
         "scope": "c",
         "body": "__IO"
     },
+    "GPIO_Speed_10MHz":{
+        "prefix": "GPIO_Speed_10MHz",
+        "scope": "c",
+        "body": "GPIO_Speed_10MHz"
+    },
+    "GPIO_Speed_2MHz":{
+        "prefix": "GPIO_Speed_2MHz",
+        "scope": "c",
+        "body": "GPIO_Speed_2MHz"
+    },
+    "GPIO_Speed_50MHz":{
+        "prefix": "GPIO_Speed_50MHz",
+        "scope": "c",
+        "body": "GPIO_Speed_50MHz"
+    },
     "GPIO_InitTypeDef":{
         "prefix": "GPIO_InitTypeDef",
         "scope": "c",
