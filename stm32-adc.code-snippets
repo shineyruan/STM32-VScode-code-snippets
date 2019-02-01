@@ -1,0 +1,612 @@
+{
+    "ADC_Mode_Independent": {
+        "prefix": "ADC_Mode_Independent",
+        "scope": "c",
+        "body": "ADC_Mode_Independent"
+    },
+    "ADC_Mode_RegInjecSimult": {
+        "prefix": "ADC_Mode_RegInjecSimult",
+        "scope": "c",
+        "body": "ADC_Mode_RegInjecSimult"
+    },
+    "ADC_Mode_RegSimult_AlterTrig": {
+        "prefix": "ADC_Mode_RegSimult_AlterTrig",
+        "scope": "c",
+        "body": "ADC_Mode_RegSimult_AlterTrig"
+    },
+    "ADC_Mode_InjecSimult_FastInterl": {
+        "prefix": "ADC_Mode_InjecSimult_FastInterl",
+        "scope": "c",
+        "body": "ADC_Mode_InjecSimult_FastInterl"
+    },
+    "ADC_Mode_InjecSimult_SlowInterl": {
+        "prefix": "ADC_Mode_InjecSimult_SlowInterl",
+        "scope": "c",
+        "body": "ADC_Mode_InjecSimult_SlowInterl"
+    },
+    "ADC_Mode_InjecSimult": {
+        "prefix": "ADC_Mode_InjecSimult",
+        "scope": "c",
+        "body": "ADC_Mode_InjecSimult"
+    },
+    "ADC_Mode_RegSimult": {
+        "prefix": "ADC_Mode_RegSimult",
+        "scope": "c",
+        "body": "ADC_Mode_RegSimult"
+    },
+    "ADC_Mode_FastInterl": {
+        "prefix": "ADC_Mode_FastInterl",
+        "scope": "c",
+        "body": "ADC_Mode_FastInterl"
+    },
+    "ADC_Mode_SlowInterl": {
+        "prefix": "ADC_Mode_SlowInterl",
+        "scope": "c",
+        "body": "ADC_Mode_SlowInterl"
+    },
+    "ADC_Mode_AlterTrig": {
+        "prefix": "ADC_Mode_AlterTrig",
+        "scope": "c",
+        "body": "ADC_Mode_AlterTrig"
+    },
+    "ADC_ExternalTrigConv_T1_CC1": {
+        "prefix": "ADC_ExternalTrigConv_T1_CC1",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T1_CC1"
+    },
+    "ADC_ExternalTrigConv_T1_CC2": {
+        "prefix": "ADC_ExternalTrigConv_T1_CC2",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T1_CC2"
+    },
+    "ADC_ExternalTrigConv_T2_CC2": {
+        "prefix": "ADC_ExternalTrigConv_T2_CC2",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T2_CC2"
+    },
+    "ADC_ExternalTrigConv_T3_TRGO": {
+        "prefix": "ADC_ExternalTrigConv_T3_TRGO",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T3_TRGO"
+    },
+    "ADC_ExternalTrigConv_T4_CC4": {
+        "prefix": "ADC_ExternalTrigConv_T4_CC4",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T4_CC4"
+    },
+    "ADC_ExternalTrigConv_Ext_IT11_TIM8_TRGO": {
+        "prefix": "ADC_ExternalTrigConv_Ext_IT11_TIM8_TRGO",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_Ext_IT11_TIM8_TRGO"
+    },
+    "ADC_ExternalTrigConv_T1_CC3": {
+        "prefix": "ADC_ExternalTrigConv_T1_CC3",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T1_CC3"
+    },
+    "ADC_ExternalTrigConv_None": {
+        "prefix": "ADC_ExternalTrigConv_None",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_None"
+    },
+    "ADC_ExternalTrigConv_T3_CC1": {
+        "prefix": "ADC_ExternalTrigConv_T3_CC1",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T3_CC1"
+    },
+    "ADC_ExternalTrigConv_T2_CC3": {
+        "prefix": "ADC_ExternalTrigConv_T2_CC3",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T2_CC3"
+    },
+    "ADC_ExternalTrigConv_T8_CC1": {
+        "prefix": "ADC_ExternalTrigConv_T8_CC1",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T8_CC1"
+    },
+    "ADC_ExternalTrigConv_T8_TRGO": {
+        "prefix": "ADC_ExternalTrigConv_T8_TRGO",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T8_TRGO"
+    },
+    "ADC_ExternalTrigConv_T5_CC1": {
+        "prefix": "ADC_ExternalTrigConv_T5_CC1",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T5_CC1"
+    },
+    "ADC_ExternalTrigConv_T5_CC3": {
+        "prefix": "ADC_ExternalTrigConv_T5_CC3",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConv_T5_CC3"
+    },
+    "ADC_DataAlign_Right": {
+        "prefix": "ADC_DataAlign_Right",
+        "scope": "c",
+        "body": "ADC_DataAlign_Right"
+    },
+    "ADC_DataAlign_Left": {
+        "prefix": "ADC_DataAlign_Left",
+        "scope": "c",
+        "body": "ADC_DataAlign_Left"
+    },
+    "ADC_Channel_0": {
+        "prefix": "ADC_Channel_0",
+        "scope": "c",
+        "body": "ADC_Channel_0"
+    },
+    "ADC_Channel_1": {
+        "prefix": "ADC_Channel_1",
+        "scope": "c",
+        "body": "ADC_Channel_1"
+    },
+    "ADC_Channel_2": {
+        "prefix": "ADC_Channel_2",
+        "scope": "c",
+        "body": "ADC_Channel_2"
+    },
+    "ADC_Channel_3": {
+        "prefix": "ADC_Channel_3",
+        "scope": "c",
+        "body": "ADC_Channel_3"
+    },
+    "ADC_Channel_4": {
+        "prefix": "ADC_Channel_4",
+        "scope": "c",
+        "body": "ADC_Channel_4"
+    },
+    "ADC_Channel_5": {
+        "prefix": "ADC_Channel_5",
+        "scope": "c",
+        "body": "ADC_Channel_5"
+    },
+    "ADC_Channel_6": {
+        "prefix": "ADC_Channel_6",
+        "scope": "c",
+        "body": "ADC_Channel_6"
+    },
+    "ADC_Channel_7": {
+        "prefix": "ADC_Channel_7",
+        "scope": "c",
+        "body": "ADC_Channel_7"
+    },
+    "ADC_Channel_8": {
+        "prefix": "ADC_Channel_8",
+        "scope": "c",
+        "body": "ADC_Channel_8"
+    },
+    "ADC_Channel_9": {
+        "prefix": "ADC_Channel_9",
+        "scope": "c",
+        "body": "ADC_Channel_9"
+    },
+    "ADC_Channel_10": {
+        "prefix": "ADC_Channel_10",
+        "scope": "c",
+        "body": "ADC_Channel_10"
+    },
+    "ADC_Channel_11": {
+        "prefix": "ADC_Channel_11",
+        "scope": "c",
+        "body": "ADC_Channel_11"
+    },
+    "ADC_Channel_12": {
+        "prefix": "ADC_Channel_12",
+        "scope": "c",
+        "body": "ADC_Channel_12"
+    },
+    "ADC_Channel_13": {
+        "prefix": "ADC_Channel_13",
+        "scope": "c",
+        "body": "ADC_Channel_13"
+    },
+    "ADC_Channel_14": {
+        "prefix": "ADC_Channel_14",
+        "scope": "c",
+        "body": "ADC_Channel_14"
+    },
+    "ADC_Channel_15": {
+        "prefix": "ADC_Channel_15",
+        "scope": "c",
+        "body": "ADC_Channel_15"
+    },
+    "ADC_Channel_16": {
+        "prefix": "ADC_Channel_16",
+        "scope": "c",
+        "body": "ADC_Channel_16"
+    },
+    "ADC_Channel_17": {
+        "prefix": "ADC_Channel_17",
+        "scope": "c",
+        "body": "ADC_Channel_17"
+    },
+    "ADC_Channel_TempSensor": {
+        "prefix": "ADC_Channel_TempSensor",
+        "scope": "c",
+        "body": "ADC_Channel_TempSensor"
+    },
+    "ADC_Channel_Vrefint": {
+        "prefix": "ADC_Channel_Vrefint",
+        "scope": "c",
+        "body": "ADC_Channel_Vrefint"
+    },
+    "ADC_SampleTime_1Cycles5": {
+        "prefix": "ADC_SampleTime_1Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_1Cycles5"
+    },
+    "ADC_SampleTime_7Cycles5": {
+        "prefix": "ADC_SampleTime_7Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_7Cycles5"
+    },
+    "ADC_SampleTime_13Cycles5": {
+        "prefix": "ADC_SampleTime_13Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_13Cycles5"
+    },
+    "ADC_SampleTime_28Cycles5": {
+        "prefix": "ADC_SampleTime_28Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_28Cycles5"
+    },
+    "ADC_SampleTime_41Cycles5": {
+        "prefix": "ADC_SampleTime_41Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_41Cycles5"
+    },
+    "ADC_SampleTime_55Cycles5": {
+        "prefix": "ADC_SampleTime_55Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_55Cycles5"
+    },
+    "ADC_SampleTime_71Cycles5": {
+        "prefix": "ADC_SampleTime_71Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_71Cycles5"
+    },
+    "ADC_SampleTime_239Cycles5": {
+        "prefix": "ADC_SampleTime_239Cycles5",
+        "scope": "c",
+        "body": "ADC_SampleTime_239Cycles5"
+    },
+    "ADC_ExternalTrigInjecConv_T2_TRGO": {
+        "prefix": "ADC_ExternalTrigInjecConv_T2_TRGO",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T2_TRGO"
+    },
+    "ADC_ExternalTrigInjecConv_T2_CC1": {
+        "prefix": "ADC_ExternalTrigInjecConv_T2_CC1",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T2_CC1"
+    },
+    "ADC_ExternalTrigInjecConv_T3_CC4": {
+        "prefix": "ADC_ExternalTrigInjecConv_T3_CC4",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T3_CC4"
+    },
+    "ADC_ExternalTrigInjecConv_T4_TRGO": {
+        "prefix": "ADC_ExternalTrigInjecConv_T4_TRGO",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T4_TRGO"
+    },
+    "ADC_ExternalTrigInjecConv_Ext_IT15_TIM8_CC4": {
+        "prefix": "ADC_ExternalTrigInjecConv_Ext_IT15_TIM8_CC4",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_Ext_IT15_TIM8_CC4"
+    },
+    "ADC_ExternalTrigInjecConv_T1_TRGO": {
+        "prefix": "ADC_ExternalTrigInjecConv_T1_TRGO",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T1_TRGO"
+    },
+    "ADC_ExternalTrigInjecConv_T1_CC4": {
+        "prefix": "ADC_ExternalTrigInjecConv_T1_CC4",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T1_CC4"
+    },
+    "ADC_ExternalTrigInjecConv_None": {
+        "prefix": "ADC_ExternalTrigInjecConv_None",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_None"
+    },
+    "ADC_ExternalTrigInjecConv_T4_CC3": {
+        "prefix": "ADC_ExternalTrigInjecConv_T4_CC3",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T4_CC3"
+    },
+    "ADC_ExternalTrigInjecConv_T8_CC2": {
+        "prefix": "ADC_ExternalTrigInjecConv_T8_CC2",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T8_CC2"
+    },
+    "ADC_ExternalTrigInjecConv_T8_CC4": {
+        "prefix": "ADC_ExternalTrigInjecConv_T8_CC4",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T8_CC4"
+    },
+    "ADC_ExternalTrigInjecConv_T5_TRGO": {
+        "prefix": "ADC_ExternalTrigInjecConv_T5_TRGO",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T5_TRGO"
+    },
+    "ADC_ExternalTrigInjecConv_T5_CC4": {
+        "prefix": "ADC_ExternalTrigInjecConv_T5_CC4",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjecConv_T5_CC4"
+    },
+    "ADC_InjectedChannel_1": {
+        "prefix": "ADC_InjectedChannel_1",
+        "scope": "c",
+        "body": "ADC_InjectedChannel_1"
+    },
+    "ADC_InjectedChannel_2": {
+        "prefix": "ADC_InjectedChannel_2",
+        "scope": "c",
+        "body": "ADC_InjectedChannel_2"
+    },
+    "ADC_InjectedChannel_3": {
+        "prefix": "ADC_InjectedChannel_3",
+        "scope": "c",
+        "body": "ADC_InjectedChannel_3"
+    },
+    "ADC_InjectedChannel_4": {
+        "prefix": "ADC_InjectedChannel_4",
+        "scope": "c",
+        "body": "ADC_InjectedChannel_4"
+    },
+    "ADC_AnalogWatchdog_SingleRegEnable": {
+        "prefix": "ADC_AnalogWatchdog_SingleRegEnable",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdog_SingleRegEnable"
+    },
+    "ADC_AnalogWatchdog_SingleInjecEnable": {
+        "prefix": "ADC_AnalogWatchdog_SingleInjecEnable",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdog_SingleInjecEnable"
+    },
+    "ADC_AnalogWatchdog_SingleRegOrInjecEnable": {
+        "prefix": "ADC_AnalogWatchdog_SingleRegOrInjecEnable",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdog_SingleRegOrInjecEnable"
+    },
+    "ADC_AnalogWatchdog_AllRegEnable": {
+        "prefix": "ADC_AnalogWatchdog_AllRegEnable",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdog_AllRegEnable"
+    },
+    "ADC_AnalogWatchdog_AllInjecEnable": {
+        "prefix": "ADC_AnalogWatchdog_AllInjecEnable",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdog_AllInjecEnable"
+    },
+    "ADC_AnalogWatchdog_AllRegAllInjecEnable": {
+        "prefix": "ADC_AnalogWatchdog_AllRegAllInjecEnable",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdog_AllRegAllInjecEnable"
+    },
+    "ADC_AnalogWatchdog_None": {
+        "prefix": "ADC_AnalogWatchdog_None",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdog_None"
+    },
+    "ADC_IT_EOC": {
+        "prefix": "ADC_IT_EOC",
+        "scope": "c",
+        "body": "ADC_IT_EOC"
+    },
+    "ADC_IT_AWD": {
+        "prefix": "ADC_IT_AWD",
+        "scope": "c",
+        "body": "ADC_IT_AWD"
+    },
+    "ADC_IT_JEOC": {
+        "prefix": "ADC_IT_JEOC",
+        "scope": "c",
+        "body": "ADC_IT_JEOC"
+    },
+    "ADC_FLAG_AWD": {
+        "prefix": "ADC_FLAG_AWD",
+        "scope": "c",
+        "body": "ADC_FLAG_AWD"
+    },
+    "ADC_FLAG_EOC": {
+        "prefix": "ADC_FLAG_EOC",
+        "scope": "c",
+        "body": "ADC_FLAG_EOC"
+    },
+    "ADC_FLAG_JEOC": {
+        "prefix": "ADC_FLAG_JEOC",
+        "scope": "c",
+        "body": "ADC_FLAG_JEOC"
+    },
+    "ADC_FLAG_JSTRT": {
+        "prefix": "ADC_FLAG_JSTRT",
+        "scope": "c",
+        "body": "ADC_FLAG_JSTRT"
+    },
+    "ADC_FLAG_STRT": {
+        "prefix": "ADC_FLAG_STRT",
+        "scope": "c",
+        "body": "ADC_FLAG_STRT"
+    },
+    "ADC_DeInit": {
+        "prefix": "ADC_DeInit",
+        "scope": "c",
+        "body": "ADC_DeInit"
+    },
+    "ADC_Init": {
+        "prefix": "ADC_Init",
+        "scope": "c",
+        "body": "ADC_Init"
+    },
+    "ADC_StructInit": {
+        "prefix": "ADC_StructInit",
+        "scope": "c",
+        "body": "ADC_StructInit"
+    },
+    "ADC_Cmd": {
+        "prefix": "ADC_Cmd",
+        "scope": "c",
+        "body": "ADC_Cmd"
+    },
+    "ADC_DMACmd": {
+        "prefix": "ADC_DMACmd",
+        "scope": "c",
+        "body": "ADC_DMACmd"
+    },
+    "ADC_ITConfig": {
+        "prefix": "ADC_ITConfig",
+        "scope": "c",
+        "body": "ADC_ITConfig"
+    },
+    "ADC_ResetCalibration": {
+        "prefix": "ADC_ResetCalibration",
+        "scope": "c",
+        "body": "ADC_ResetCalibration"
+    },
+    "ADC_GetResetCalibrationStatus": {
+        "prefix": "ADC_GetResetCalibrationStatus",
+        "scope": "c",
+        "body": "ADC_GetResetCalibrationStatus"
+    },
+    "ADC_StartCalibration": {
+        "prefix": "ADC_StartCalibration",
+        "scope": "c",
+        "body": "ADC_StartCalibration"
+    },
+    "ADC_GetCalibrationStatus": {
+        "prefix": "ADC_GetCalibrationStatus",
+        "scope": "c",
+        "body": "ADC_GetCalibrationStatus"
+    },
+    "ADC_SoftwareStartConvCmd": {
+        "prefix": "ADC_SoftwareStartConvCmd",
+        "scope": "c",
+        "body": "ADC_SoftwareStartConvCmd"
+    },
+    "ADC_GetSoftwareStartConvStatus": {
+        "prefix": "ADC_GetSoftwareStartConvStatus",
+        "scope": "c",
+        "body": "ADC_GetSoftwareStartConvStatus"
+    },
+    "ADC_DiscModeChannelCountConfig": {
+        "prefix": "ADC_DiscModeChannelCountConfig",
+        "scope": "c",
+        "body": "ADC_DiscModeChannelCountConfig"
+    },
+    "ADC_DiscModeCmd": {
+        "prefix": "ADC_DiscModeCmd",
+        "scope": "c",
+        "body": "ADC_DiscModeCmd"
+    },
+    "ADC_RegularChannelConfig": {
+        "prefix": "ADC_RegularChannelConfig",
+        "scope": "c",
+        "body": "ADC_RegularChannelConfig"
+    },
+    "ADC_ExternalTrigConvCmd": {
+        "prefix": "ADC_ExternalTrigConvCmd",
+        "scope": "c",
+        "body": "ADC_ExternalTrigConvCmd"
+    },
+    "ADC_GetConversionValue": {
+        "prefix": "ADC_GetConversionValue",
+        "scope": "c",
+        "body": "ADC_GetConversionValue"
+    },
+    "ADC_GetDualModeConversionValue": {
+        "prefix": "ADC_GetDualModeConversionValue",
+        "scope": "c",
+        "body": "ADC_GetDualModeConversionValue"
+    },
+    "ADC_AutoInjectedConvCmd": {
+        "prefix": "ADC_AutoInjectedConvCmd",
+        "scope": "c",
+        "body": "ADC_AutoInjectedConvCmd"
+    },
+    "ADC_InjectedDiscModeCmd": {
+        "prefix": "ADC_InjectedDiscModeCmd",
+        "scope": "c",
+        "body": "ADC_InjectedDiscModeCmd"
+    },
+    "ADC_ExternalTrigInjectedConvConfig": {
+        "prefix": "ADC_ExternalTrigInjectedConvConfig",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjectedConvConfig"
+    },
+    "ADC_ExternalTrigInjectedConvCmd": {
+        "prefix": "ADC_ExternalTrigInjectedConvCmd",
+        "scope": "c",
+        "body": "ADC_ExternalTrigInjectedConvCmd"
+    },
+    "ADC_SoftwareStartInjectedConvCmd": {
+        "prefix": "ADC_SoftwareStartInjectedConvCmd",
+        "scope": "c",
+        "body": "ADC_SoftwareStartInjectedConvCmd"
+    },
+    "ADC_GetSoftwareStartInjectedConvCmdStatus": {
+        "prefix": "ADC_GetSoftwareStartInjectedConvCmdStatus",
+        "scope": "c",
+        "body": "ADC_GetSoftwareStartInjectedConvCmdStatus"
+    },
+    "ADC_InjectedChannelConfig": {
+        "prefix": "ADC_InjectedChannelConfig",
+        "scope": "c",
+        "body": "ADC_InjectedChannelConfig"
+    },
+    "ADC_InjectedSequencerLengthConfig": {
+        "prefix": "ADC_InjectedSequencerLengthConfig",
+        "scope": "c",
+        "body": "ADC_InjectedSequencerLengthConfig"
+    },
+    "ADC_SetInjectedOffset": {
+        "prefix": "ADC_SetInjectedOffset",
+        "scope": "c",
+        "body": "ADC_SetInjectedOffset"
+    },
+    "ADC_GetInjectedConversionValue": {
+        "prefix": "ADC_GetInjectedConversionValue",
+        "scope": "c",
+        "body": "ADC_GetInjectedConversionValue"
+    },
+    "ADC_AnalogWatchdogCmd": {
+        "prefix": "ADC_AnalogWatchdogCmd",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdogCmd"
+    },
+    "ADC_AnalogWatchdogThresholdsConfig": {
+        "prefix": "ADC_AnalogWatchdogThresholdsConfig",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdogThresholdsConfig"
+    },
+    "ADC_AnalogWatchdogSingleChannelConfig": {
+        "prefix": "ADC_AnalogWatchdogSingleChannelConfig",
+        "scope": "c",
+        "body": "ADC_AnalogWatchdogSingleChannelConfig"
+    },
+    "ADC_TempSensorVrefintCmd": {
+        "prefix": "ADC_TempSensorVrefintCmd",
+        "scope": "c",
+        "body": "ADC_TempSensorVrefintCmd"
+    },
+    "ADC_GetFlagStatus": {
+        "prefix": "ADC_GetFlagStatus",
+        "scope": "c",
+        "body": "ADC_GetFlagStatus"
+    },
+    "ADC_ClearFlag": {
+        "prefix": "ADC_ClearFlag",
+        "scope": "c",
+        "body": "ADC_ClearFlag"
+    },
+    "ADC_GetITStatus": {
+        "prefix": "ADC_GetITStatus",
+        "scope": "c",
+        "body": "ADC_GetITStatus"
+    },
+    "ADC_ClearITPendingBit": {
+        "prefix": "ADC_ClearITPendingBit",
+        "scope": "c",
+        "body": "ADC_ClearITPendingBit"
+    }
+}
